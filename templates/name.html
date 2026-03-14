@@ -7,8 +7,17 @@
 </head>
 <body>
     <form method="POST">
-        <input type="text" name="username" required>
-        <br>
+        <table>
+            {% for item in symptoms%}
+            <tr>
+            <td>  <label for={{item}}>{{item }}:</label></td>
+            <td>No :<input type="radio" name={{item}} value="0" checked></td>
+        <td>Yes :<input type="radio" name={{item}} value="1"></td>
+            </tr>
+        
+        {%endfor%}
+        </table>
+        
         <input type="submit">
     </form>
 </body>
