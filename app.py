@@ -1,34 +1,15 @@
 from flask import Flask,render_template,request
 import numpy as np
-
+import pickle
 import pandas as pd
 from pgmpy.models import DiscreteBayesianNetwork
 from pgmpy.estimators import BayesianEstimator
 from pgmpy.inference import VariableElimination
-df=pd.read_csv('new_disease_dataset.csv')
-df=df.drop(columns=['Unnamed: 0'])
-symptoms=df.columns
-symptoms=symptoms[1:]
-columns={}
-for sym in symptoms:
-    columns[sym]=sym.replace(' ','')
-df=df.rename(columns=columns)
-symptoms=[symp for symp in df.columns if symp!='diseases']
-edges=[('diseases',sym) for sym in symptoms]
-model=DiscreteBayesianNetwork(edges)
-from sklearn.model_selection import train_test_split
-X=df.drop(columns=['diseases'])
-y=df['diseases']
-X_train, y_train=df.iloc[:,1:],df.iloc[:,0]
-train_data=pd.concat([y_train,X_train],axis=1)
-diseases=y_train.unique().tolist()
-all_state_names = {'diseases': diseases}
-for symptom in symptoms:
-    all_state_names[symptom] = [0, 1]
-
-model.fit(data=train_data, estimator=BayesianEstimator, state_names=all_state_names)
+with open('model.pkl','rb') as f:
+    model=pickle.load(f)
 infer=VariableElimination(model)
-symptoms=df.columns[1:]
+symptoms=['depression', 'shortnessofbreath', 'depressiveorpsychoticsymptoms', 'sharpchestpain', 'dizziness', 'abnormalinvoluntarymovements', 'sorethroat', 'cough', 'nasalcongestion', 'throatswelling', 'diminishedhearing', 'lumpinthroat', 'throatfeelstight', 'skinswelling', 'retentionofurine', 'legpain', 'suprapubicpain', 'lackofgrowth', 'elbowweakness', 'whitedischargefromeye', 'abusingalcohol', 'fainting', 'drugabuse', 'sharpabdominalpain', 'vomiting', 'headache', 'nausea', 'diarrhea', 'vaginalitching', 'painfulurination', 'frequenturination', 'lowerabdominalpain', 'vaginaldischarge', 'bloodinurine', 'wristpain', 'handorfingerswelling', 'armpain', 'lipswelling', 'abnormalappearingskin', 'skinlesion', 'acneorpimples', 'mouthulcer', 'diminishedvision', 'painineye', 'irregularappearingscalp', 'backpain', 'neckpain', 'lowbackpain', 'pelvicpain', 'vomitingblood', 'wheezing', 'peripheraledema', 'earpain', 'footortoepain', 'skinmoles', 'kneelumpormass', 'vaginalpain', 'weakness', 'ringinginear', 'pluggedfeelinginear', 'frontalheadache', 'fluidinear', 'spotsorcloudsinvision', 'eyeredness', 'lacrimation', 'itchinessofeye', 'blindness', 'lossofsensation', 'slurringwords', 'symptomsoftheface', 'disturbanceofmemory', 'sidepain', 'fever', 'acheallover', 'changesinstoolappearance', 'chills', 'fatigue', 'melena', 'coryza', 'allergicreaction', 'sleepiness', 'abnormalbreathingsounds', 'pullingatears', 'rednessinear', 'fluidretention', 'flu-likesyndrome', 'sinuscongestion', 'musclecramps,contractures,orspasms', 'nosebleed', 'swolleneye', 'itchingofskin', 'skindryness,peeling,scaliness,orroughness', 'skinrash', 'feelinghot', 'swollenorredtonsils', 'lipsore', 'sneezing', 'diaperrash', 'throatredness']
+
     
 app=Flask(__name__)
 @app.route('/')
@@ -45,7 +26,7 @@ def login():
         print(pred)
         dis=pred.state_names
         dis=dis['diseases']
-        for i in range(len(diseases)):
+        for i in range(len(dis)):
             ans[dis[i]]=pred.values[i]
         return ans
     return render_template('name.html',symptoms=symptoms)
