@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is anemia?",
+        "Define anemia",
+        "Low hemoglobin meaning",
+        "What does it mean to be anemic?"
+      ],
+      "responses": [
+        "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. This is usually measured by a low hemoglobin level in your blood.",
+        "Think of red blood cells as delivery trucks for oxygen; when you have anemia, you have fewer trucks on the road, which makes your heart and lungs work harder to keep your body functioning."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes anemia?",
+        "Why is my iron low?",
+        "Causes of low red blood cells",
+        "Can blood loss cause anemia?"
+      ],
+      "responses": [
+        "The most common cause is iron deficiency, but it can also be caused by a lack of Vitamin B12 or Folate, blood loss (such as from heavy periods or ulcers), or chronic diseases that affect blood production.",
+        "In some cases, the body may have trouble absorbing iron due to conditions like Celiac disease, or it may be destroying red blood cells faster than it can create them (hemolytic anemia)."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are anemia symptoms?",
+        "Signs of low iron",
+        "Why am I always tired and pale?",
+        "Shortness of breath and dizziness"
+      ],
+      "responses": [
+        "Common symptoms include extreme fatigue, weakness, pale or yellowish skin, chest pain, fast heartbeat, and shortness of breath.",
+        "You might also notice cold hands and feet, brittle nails, or a strange craving for non-food items like ice or dirt (a condition known as pica)."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent anemia?",
+        "Avoiding iron deficiency",
+        "How to keep blood healthy?",
+        "Anemia prevention tips"
+      ],
+      "responses": [
+        "Eat a balanced diet rich in iron, folate, and Vitamin B12. If you are a vegetarian or vegan, pay extra attention to plant-based iron sources and consider fortified cereals.",
+        "Avoid drinking tea or coffee with your meals, as the tannins in these drinks can block iron absorption. Instead, pair iron-rich foods with Vitamin C to help your body soak up the mineral."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for anemia?",
+        "Best foods for low iron",
+        "Iron rich diet",
+        "How to increase hemoglobin naturally?"
+      ],
+      "responses": [
+        "Focus on 'Heme' iron (easily absorbed) found in red meat, poultry, and fish. For 'Non-Heme' iron, eat spinach, lentils, beans, and fortified grains.",
+        "Crucial Tip: Pair iron-rich foods with Vitamin C (like oranges, tomatoes, or bell peppers). Vitamin C significantly increases the amount of iron your body can absorb from plant sources."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for anemia",
+        "Iron supplements",
+        "How to treat low iron?",
+        "Best iron pills"
+      ],
+      "responses": [
+        "Iron supplements (ferrous sulfate or gluconate) are the standard treatment. These should be taken as directed by a doctor, as too much iron can be toxic.",
+        "Note: Iron supplements can cause side effects like constipation or dark-colored stools. Taking them with a small amount of food or a stool softener may help, but consult your doctor first."
+      ]
+    }
+  ]
+}

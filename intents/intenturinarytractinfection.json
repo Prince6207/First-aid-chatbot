@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a UTI?",
+        "Define urinary tract infection",
+        "What does UTI mean?",
+        "Bladder infection vs UTI"
+      ],
+      "responses": [
+        "A Urinary Tract Infection (UTI) is an infection in any part of your urinary system—your kidneys, ureters, bladder, and urethra. Most infections involve the lower urinary tract (the bladder and the urethra).",
+        "While uncomfortable, most UTIs are easily treated. However, if left untreated, the infection can spread to the kidneys, which is a much more serious condition."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes a UTI?",
+        "How do you get a urinary infection?",
+        "Is UTI sexually transmitted?",
+        "Bacteria in urine causes"
+      ],
+      "responses": [
+        "UTIs typically occur when bacteria (most commonly E. coli) enter the urinary tract through the urethra and begin to multiply in the bladder.",
+        "Common risk factors include female anatomy (shorter urethra), sexual activity, certain types of birth control (diaphragms), and menopause. It is not classified as an STI, though sexual activity can move bacteria into the tract."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are UTI symptoms?",
+        "Does it burn when I pee?",
+        "Signs of bladder infection",
+        "Cloudy or bloody urine"
+      ],
+      "responses": [
+        "Common signs include a strong, persistent urge to urinate, a burning sensation when urinating, passing frequent, small amounts of urine, and urine that appears cloudy or bright pink (bloody).",
+        "Pelvic pain, especially in the center of the pelvis and around the area of the pubic bone, is also common in women. If you have back pain or fever, the infection may have reached your kidneys."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent UTI?",
+        "How to stop getting frequent UTIs?",
+        "UTI hygiene tips",
+        "Avoiding urinary infections"
+      ],
+      "responses": [
+        "Drink plenty of liquids, especially water, to help flush bacteria from your urinary tract. For women, always wipe from front to back after urinating or a bowel movement to prevent bacteria spread.",
+        "Empty your bladder soon after intercourse to flush out bacteria. Avoid potentially irritating feminine products like deodorant sprays or douches in the genital area."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for UTI?",
+        "Does cranberry juice help UTI?",
+        "What to drink for urinary infection?",
+        "Foods to avoid with UTI"
+      ],
+      "responses": [
+        "Hydration is key—aim for 8–10 glasses of water a day. While cranberry juice doesn't *cure* an active UTI, it contains compounds that may prevent bacteria from sticking to the bladder wall in the future.",
+        "Avoid 'bladder irritants' like caffeine, alcohol, spicy foods, and artificial sweeteners, as these can make the burning sensation and urgency much worse during an infection."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for UTI",
+        "Antibiotics for urinary infection",
+        "Over the counter UTI relief",
+        "How to stop UTI pain fast?"
+      ],
+      "responses": [
+        "Antibiotics are the standard treatment for UTIs and must be prescribed by a healthcare provider. Common ones include Nitrofurantoin or Trimethoprim.",
+        "For immediate pain relief, over-the-counter medications containing Phenazopyridine (like AZO) can help soothe the burning and urgency, but they do NOT cure the infection—they only mask the symptoms."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after UTI is gone?",
+        "Finishing antibiotics for UTI",
+        "How to tell if UTI is cured?",
+        "Recovery after kidney infection"
+      ],
+      "responses": [
+        "It is crucial to finish the entire course of antibiotics prescribed by your doctor, even if you feel better after a day or two. Stopping early can lead to a more resistant infection.",
+        "Continue drinking plenty of water for several days after your symptoms vanish to ensure the system is completely flushed. If symptoms return within a week, see your doctor for a follow-up culture."
+      ]
+    }
+  ]
+}

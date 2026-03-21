@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "food",
+      "patterns": ["What food to take?", "What to drink?", "Can I drink cold drinks?", "What food to avoid?"],
+      "responses": [
+        "Fighting a high fever causes significant fluid loss. Staying hydrated with water, coconut water, and ORS is non-negotiable to maintain blood volume.",
+        "The digestive system is often weakened during Dengue. Avoid oily, spicy, or heavy foods. Opt for soft, light meals like porridge, soups, and boiled vegetables.",
+        "Focus on nutrients that support platelet production: Vitamin C (citrus fruits), Vitamin K (leafy greens), and Iron. Avoid dark-colored foods (like beets or chocolate) that could be mistaken for blood in stool or vomit."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": ["How to avoid dengue", "What are its preventions", "How to avoid it?", "How to stop mosquitoes?"],
+      "responses": [
+        "Eliminate standing water in pots, tires, or buckets where mosquitoes breed. Use mosquito nets, wear long-sleeved clothing, and apply EPA-approved insect repellents.",
+        "The Aedes mosquito is most active during early morning and late afternoon. Keep windows and doors screened or closed during these peak times."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": ["what causes dengue?", "Is is caused by mosquito", "Does every mosquito causes dengue?", "How is it spread?"],
+      "responses": [
+        "Dengue is a viral infection transmitted to humans through the bite of infected female Aedes aegypti mosquitoes.",
+        "Not every mosquito carries the virus. It only spreads when a mosquito bites an infected person and then bites someone else. It is not contagious and cannot spread directly from person to person."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": ["What medicine I can use?", "what medicine will help reduce the symptoms?", "Can I take aspirin?", "Painkillers for dengue"],
+      "responses": [
+        "Paracetamol (Acetaminophen) is typically used to manage fever and pain. However, always consult a doctor for the correct dosage.",
+        "IMPORTANT: Strictly avoid NSAIDs like Aspirin or Ibuprofen. These can increase the risk of internal bleeding and hemorrhage in Dengue patients.",
+        "There is no specific antiviral medicine for Dengue. Treatment focuses on managing symptoms and maintaining fluid balance under medical supervision."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["What are the symptoms?", "How do I know I have dengue?", "Signs of dengue", "When to see a doctor?"],
+      "responses": [
+        "Common symptoms include high fever, severe headache (often behind the eyes), muscle and joint pain, nausea, and a characteristic skin rash.",
+        "Watch for warning signs of 'Severe Dengue' like intense abdominal pain, persistent vomiting, bleeding gums, or extreme fatigue. If these occur, seek emergency medical care immediately."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": ["What to do after recovery?", "Feeling weak after dengue", "Post-dengue care", "How long is recovery?"],
+      "responses": [
+        "Recovery can take 1–2 weeks. It is normal to feel significant fatigue or 'brain fog' during this time. Gradually reintroduce physical activity and continue a nutrient-rich diet.",
+        "Continue to stay hydrated and rest plenty. Your immune system is still recovering, so avoid strenuous exercise and focus on rebuilding your strength with protein and vitamins."
+      ]
+    },
+    {
+  "tag": "definition",
+  "patterns": [
+    "What is dengue?",
+    "Define dengue fever",
+    "What does dengue mean?",
+    "Tell me about dengue virus"
+  ],
+  "responses": [
+    "Dengue is a viral infection transmitted to humans through the bite of infected female Aedes aegypti mosquitoes. It is found mostly in tropical and subtropical climates worldwide.",
+    "Often called 'breakbone fever' due to the severe muscle and joint pain it causes, Dengue is caused by one of four virus serotypes (DENV-1, DENV-2, DENV-3, and DENV-4).",
+    "While many cases are mild, Dengue can progress to a severe form characterized by a drop in platelet counts, internal bleeding, and plasma leakage, requiring urgent medical monitoring."
+  ]
+}
+  ]
+}

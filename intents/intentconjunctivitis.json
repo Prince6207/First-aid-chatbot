@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is conjunctivitis?",
+        "Define pink eye",
+        "What does bloodshot eye mean?",
+        "Eye inflammation definition"
+      ],
+      "responses": [
+        "Conjunctivitis, commonly known as 'pink eye,' is an inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball.",
+        "When small blood vessels in the conjunctiva become inflamed, they're more visible. This is what causes the whites of your eyes to appear reddish or pink."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes pink eye?",
+        "How do you get conjunctivitis?",
+        "Is pink eye viral or bacterial?",
+        "Can allergies cause red eyes?"
+      ],
+      "responses": [
+        "The most common causes are viruses and bacteria. Other causes include allergies (to pollen or smoke), a chemical splash in the eye, or a foreign object in the eye.",
+        "Viral and bacterial pink eye are highly contagious and spread through direct contact with eye secretions or contaminated surfaces. Allergic pink eye is not contagious."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are pink eye symptoms?",
+        "Signs of conjunctivitis",
+        "Why is my eye goopy?",
+        "Itchy red eyes"
+      ],
+      "responses": [
+        "Symptoms include redness in one or both eyes, itchiness, a gritty feeling (like sand in the eye), and a discharge that forms a crust during the night that may prevent your eye from opening in the morning.",
+        "Viral pink eye usually produces a watery discharge, while bacterial pink eye often produces a thicker, yellow-green discharge. Allergic pink eye typically causes intense itching and tearing in both eyes."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent pink eye?",
+        "Is pink eye contagious?",
+        "How to stop spreading conjunctivitis?",
+        "Eye hygiene tips"
+      ],
+      "responses": [
+        "Don't touch your eyes with your hands. Wash your hands often, use a clean towel and washcloth daily, and don't share towels or eye cosmetics.",
+        "If you have pink eye, stay home from work or school until the discharge has stopped to avoid infecting others. Disinfect surfaces like doorknobs and shared electronics."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for pink eye?",
+        "Diet for eye health",
+        "Can food help conjunctivitis?",
+        "Best vitamins for eyes"
+      ],
+      "responses": [
+        "While food won't cure pink eye, Vitamin A (found in carrots, sweet potatoes, and leafy greens) is essential for maintaining a healthy conjunctiva and cornea.",
+        "Omega-3 fatty acids (found in flaxseeds and fatty fish) can help reduce the inflammation associated with allergic conjunctivitis and dry eye symptoms."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for pink eye",
+        "Eye drops for conjunctivitis",
+        "How to treat pink eye at home?",
+        "Do I need antibiotics for red eye?"
+      ],
+      "responses": [
+        "Viral pink eye usually clears up on its own in 1-2 weeks; artificial tears and cold compresses can help with discomfort. Bacterial pink eye may require antibiotic eye drops or ointments prescribed by a doctor.",
+        "Allergic conjunctivitis is treated with antihistamine eye drops or oral allergy medications. WARNING: Do not use 'redness-relief' drops (vasoconstrictors) for more than two days, as they can cause 'rebound' redness."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after pink eye?",
+        "How to clean eyes after infection?",
+        "Should I throw away my makeup after pink eye?",
+        "When can I wear contacts again?"
+      ],
+      "responses": [
+        "Throw away any eye makeup (mascara, eyeliner) used while you had the infection to prevent reinfecting yourself. Thoroughly clean your eyeglasses and discard any disposable contact lenses.",
+        "Wait at least 24 hours after your symptoms have completely disappeared before wearing contact lenses again. Disinfect your contact lens case or, better yet, replace it with a new one."
+      ]
+    }
+  ]
+}

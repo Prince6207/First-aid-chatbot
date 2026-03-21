@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is frostbite?",
+        "Define frostbite",
+        "What does freezing of skin mean?",
+        "Difference between frostnip and frostbite"
+      ],
+      "responses": [
+        "Frostbite is an injury caused by freezing of the skin and underlying tissues. It most commonly affects the fingers, toes, nose, ears, cheeks, and chin.",
+        "It ranges from 'Frostnip' (mild surface freezing that doesn't cause permanent damage) to 'Deep Frostbite,' which involves the muscle and even bone, potentially leading to tissue death (gangrene)."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes frostbite?",
+        "How do you get frostbitten?",
+        "Freezing temperatures and skin",
+        "Can wet clothes cause frostbite?"
+      ],
+      "responses": [
+        "Frostbite occurs when skin is exposed to extremely cold temperatures, causing the water in your cells to freeze and form ice crystals. This damages the cell structure and cuts off blood flow.",
+        "Contributing factors include high winds (wind chill), wearing wet clothing, or touching extremely cold surfaces like metal or dry ice without protection."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are frostbite symptoms?",
+        "Signs of frozen skin",
+        "How do I know if I have frostbite?",
+        "Black skin from cold"
+      ],
+      "responses": [
+        "Early signs (Frostnip) include cold skin and a prickling, 'pins and needles' feeling. As it progresses, the skin may turn numb, hard, and look pale or waxy.",
+        "EMERGENCY SIGNS: If the skin turns dark blue or black, or if you develop large blisters after rewarming, the tissue damage is severe. Seek medical attention immediately to prevent infection or loss of the limb."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent frostbite?",
+        "Cold weather safety tips",
+        "Avoiding frostbite in winter",
+        "How to dress for extreme cold?"
+      ],
+      "responses": [
+        "Dress in layers: a moisture-wicking inner layer, an insulating middle layer (wool/fleece), and a windproof/waterproof outer layer. Ensure your head, ears, and hands are fully covered.",
+        "Stay dry—wet clothing pulls heat away from the body much faster. Avoid alcohol before going into the cold, as it makes your body lose heat more rapidly even if you feel 'warm'."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for frostbite recovery?",
+        "Best drinks for cold injury",
+        "Does food help frostbite?",
+        "Hydration in extreme cold"
+      ],
+      "responses": [
+        "Drink warm, sweetened, non-alcoholic and caffeine-free beverages to help increase body temperature and provide energy for shivering (the body's way of generating heat).",
+        "Eat high-calorie foods (like nuts or chocolate) to give your metabolism the fuel it needs to generate internal heat. Proper hydration is also essential for maintaining blood circulation to your extremities."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for frostbite",
+        "How to treat frostbite at home?",
+        "Should I rub my frozen hands?",
+        "First aid for frostbite"
+      ],
+      "responses": [
+        "WARNING: Never rub or massage frostbitten skin, especially with snow, as this can break the damaged skin and cause severe tissue trauma.",
+        "First Aid: Get out of the cold. Rewarm the area by soaking it in warm (NOT HOT) water—ideally 100°F to 108°F (38°C to 42°C)—for 20 to 30 minutes. Use Ibuprofen to help manage the significant pain that occurs during the rewarming process.",
+        "If the area remains numb or turns black during rewarming, go to an emergency room immediately for professional treatment, which may include clot-busting medications."
+      ]
+    }
+  ]
+}

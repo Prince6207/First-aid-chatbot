@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a migraine?",
+        "Define migraine",
+        "Is it just a headache or a migraine?",
+        "What does migraine mean?"
+      ],
+      "responses": [
+        "A migraine is not just a bad headache; it is a complex neurological condition. It often involves a severe, throbbing pain, usually on one side of the head.",
+        "Migraines are characterized by 'attacks' that can last from 4 to 72 hours and are often accompanied by extreme sensitivity to light, sound, or smell."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes migraines?",
+        "Why do I get migraines?",
+        "Is migraine genetic?",
+        "What happens in the brain during a migraine?"
+      ],
+      "responses": [
+        "While the exact cause isn't fully understood, migraines are thought to be caused by temporary changes in the chemicals, nerves, and blood vessels in the brain.",
+        "Genetics play a huge role—about 80% of migraine sufferers have a family history of the condition. Triggers like stress, hormonal changes, and weather shifts can set off an attack."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are migraine symptoms?",
+        "Signs of a migraine",
+        "What is a migraine aura?",
+        "Feeling sick with a headache"
+      ],
+      "responses": [
+        "Common symptoms include pulsating pain on one side of the head, nausea, vomiting, and sensitivity to light (photophobia) and sound (phonophobia).",
+        "Some people experience an 'aura' before the pain starts—this can include visual disturbances like flashing lights, blind spots, or tingling in the hands and face."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent migraines?",
+        "How to stop getting migraines?",
+        "Migraine trigger management",
+        "Can I avoid migraine attacks?"
+      ],
+      "responses": [
+        "Prevention involves identifying and avoiding triggers. Keeping a 'migraine diary' to track food, sleep, and weather patterns is a highly effective first step.",
+        "Maintaining a consistent routine for sleep and meals, staying hydrated, and managing stress through relaxation techniques can significantly reduce the frequency of attacks."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What foods cause migraines?",
+        "Diet for migraine sufferers",
+        "Can chocolate cause migraines?",
+        "Foods to eat to stop a migraine"
+      ],
+      "responses": [
+        "Common food triggers include aged cheeses, salty processed foods, and food additives like MSG or nitrates (found in deli meats).",
+        "Caffeine and alcohol (especially red wine) are frequent triggers. On the helpful side, foods rich in Magnesium (like spinach and pumpkin seeds) and Riboflavin (B2) may help prevent attacks over time."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "What medicine for migraine?",
+        "Best painkiller for migraine",
+        "How to stop a migraine fast?",
+        "Triptans for migraine"
+      ],
+      "responses": [
+        "For mild migraines, over-the-counter relievers like Ibuprofen or specialized 'Migraine' pills containing caffeine and aspirin may work.",
+        "For severe attacks, doctors often prescribe Triptans (like Sumatriptan), which specifically target the blood vessels and nerves in the brain to stop the pain.",
+        "Antiemetics (anti-nausea meds) are often used alongside painkillers if vomiting is a major symptom. Always consult a neurologist for a tailored treatment plan."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a common cold?",
+        "Define common cold",
+        "What's the difference between a cold and flu?",
+        "Tell me about the cold virus"
+      ],
+      "responses": [
+        "The common cold is a viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way.",
+        "While many types of viruses can cause a common cold, rhinoviruses are the most frequent culprit. Most people recover in 7 to 10 days."
+      ]
+    },
+    {
+      "tag": "causes",
+      "patterns": [
+        "How do you catch a cold?",
+        "Is the cold contagious?",
+        "What causes the common cold?",
+        "How does it spread?"
+      ],
+      "responses": [
+        "Cold viruses enter your body through your mouth, eyes, or nose. The virus can spread through droplets in the air when someone who is sick coughs, sneezes, or talks.",
+        "It also spreads by hand-to-hand contact with someone who has a cold or by sharing contaminated objects, such as utensils, towels, toys, or telephones."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are common cold symptoms?",
+        "Do I have a cold or allergies?",
+        "Signs of a cold",
+        "How do I know if I have a cold?"
+      ],
+      "responses": [
+        "Symptoms usually appear one to three days after exposure. They include a runny or stuffy nose, sore throat, cough, congestion, slight body aches, and a low-grade fever.",
+        "The discharge from your nose may become thicker and yellow or green as a common cold runs its course; this is normal and doesn't usually mean you need antibiotics."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat when I have a cold?",
+        "Best soup for a cold",
+        "What to drink for a sore throat?",
+        "Foods to avoid during a cold"
+      ],
+      "responses": [
+        "Warm liquids like chicken soup, tea, or warm apple juice can be soothing and help loosen congestion. Honey in tea is excellent for suppressing a cough.",
+        "Stay hydrated with water and broth. Avoid caffeine and alcohol, as they can lead to dehydration. Vitamin C-rich foods like oranges and strawberries may help support your immune system."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "What medicine for cold?",
+        "How to stop a runny nose?",
+        "Best cold medicine",
+        "Can I take antibiotics for a cold?"
+      ],
+      "responses": [
+        "Over-the-counter pain relievers like Paracetamol or Ibuprofen can help with fever and sore throat. Decongestant nasal sprays can help, but shouldn't be used for more than 3 days.",
+        "Antibiotics do not work against viruses and will not help a common cold. They are only effective against bacterial infections.",
+        "For a sore throat, salt water gargles (1/4 to 1/2 teaspoon salt dissolved in an 8-ounce glass of warm water) can provide temporary relief."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to avoid catching a cold?",
+        "How to stop spreading a cold?",
+        "Cold prevention tips"
+      ],
+      "responses": [
+        "Wash your hands often with soap and water for at least 20 seconds. If soap isn't available, use an alcohol-based hand sanitizer.",
+        "Disinfect high-touch surfaces like doorknobs and light switches. Avoid sharing glasses or utensils with family members if someone is ill.",
+        "Boost your immunity by getting enough sleep, eating a healthy diet, and managing stress."
+      ]
+    }
+  ]
+}

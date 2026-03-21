@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is the flu?",
+        "Define influenza",
+        "Is it a cold or the flu?",
+        "What does flu mean?"
+      ],
+      "responses": [
+        "Influenza, commonly known as the flu, is a highly contagious respiratory illness caused by influenza viruses. It attacks the nose, throat, and lungs.",
+        "While a cold develops gradually, the flu usually hits you suddenly and feels much more severe. It can lead to serious complications like pneumonia if not monitored."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes the flu?",
+        "How do you get influenza?",
+        "Is flu viral or bacterial?",
+        "How is flu transmitted?"
+      ],
+      "responses": [
+        "The flu is caused by influenza viruses (mostly Type A and Type B). It spreads through respiratory droplets when an infected person coughs, sneezes, or talks.",
+        "You can also catch it by touching a surface or object that has the virus on it and then touching your own mouth, nose, or eyes."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are flu symptoms?",
+        "Signs of influenza",
+        "How do I know I have the flu?",
+        "Flu vs Cold symptoms"
+      ],
+      "responses": [
+        "Flu symptoms usually come on suddenly. Look for high fever (100°F/38°C or higher), dry cough, sore throat, severe muscle or body aches, and extreme fatigue.",
+        "Some people may also experience headaches, chills, and occasionally vomiting or diarrhea (more common in children than adults)."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent the flu?",
+        "Flu shot information",
+        "How to not catch the flu?",
+        "Avoiding influenza"
+      ],
+      "responses": [
+        "The most effective way to prevent the flu is by getting an annual flu vaccine. It helps your body recognize the virus before you get sick.",
+        "Practice 'respiratory etiquette': cover your mouth when coughing, wash hands frequently with soap, and stay home for at least 24 hours after your fever is gone to protect others."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat during the flu?",
+        "Best food for influenza recovery",
+        "What should I drink for flu?",
+        "Flu diet"
+      ],
+      "responses": [
+        "Hydration is the priority. Drink water, herbal teas, or electrolyte drinks to replace fluids lost through fever and sweat.",
+        "Eat light, nutrient-dense foods like chicken soup (which helps clear nasal passages), bananas, rice, and vitamin C-rich fruits. Garlic and ginger can also help soothe inflammation and nausea."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "What medicine for flu?",
+        "Antivirals for influenza",
+        "Can I take Tamiflu?",
+        "Medicine for flu fever"
+      ],
+      "responses": [
+        "Antiviral drugs (like Oseltamivir/Tamiflu) can be prescribed by a doctor. They work best if started within 48 hours of symptoms appearing to shorten the illness.",
+        "Over-the-counter pain relievers like Paracetamol or Ibuprofen can help reduce fever and body aches. Never give Aspirin to children or teenagers with flu-like symptoms due to the risk of Reye's syndrome."
+      ]
+    }
+  ]
+}

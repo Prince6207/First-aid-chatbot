@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is heat stroke?",
+        "Define heatstroke",
+        "Difference between heat exhaustion and heat stroke",
+        "Is heat stroke dangerous?"
+      ],
+      "responses": [
+        "Heat stroke is the most serious heat-related illness. It occurs when the body's temperature rises rapidly (to 104°F/40°C or higher) and the sweating mechanism fails, leaving the body unable to cool down.",
+        "It is a life-threatening emergency that can cause damage to the brain, heart, kidneys, and muscles if treatment is delayed."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes heat stroke?",
+        "How do you get heatstroke?",
+        "Causes of high body temperature",
+        "Environmental heat stroke"
+      ],
+      "responses": [
+        "Heat stroke is caused by prolonged exposure to high temperatures or intense physical exertion in hot weather. Dehydration significantly increases the risk as the body loses the ability to sweat.",
+        "Common triggers include wearing excess clothing, drinking alcohol (which affects the body's ability to regulate temperature), and high humidity, which prevents sweat from evaporating."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of heat stroke?",
+        "Signs of sunstroke",
+        "How do I know if I have heat stroke?",
+        "Heat stroke warning signs"
+      ],
+      "responses": [
+        "The hallmark sign of heat stroke is a core body temperature of 104°F (40°C) or higher. Other symptoms include altered mental state (confusion, agitation, slurred speech), nausea, and rapid breathing.",
+        "EMERGENCY SIGNS: Hot, dry skin (or heavy sweating if caused by exercise), a racing heart rate, a throbbing headache, and fainting or seizures. If you see these, call emergency services immediately."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent heat stroke?",
+        "Staying safe in a heatwave",
+        "How to avoid heatstroke?",
+        "Precautions for hot weather"
+      ],
+      "responses": [
+        "Wear lightweight, loose-fitting, and light-colored clothing. Drink plenty of fluids even if you don't feel thirsty, and avoid outdoor activities during the hottest parts of the day.",
+        "Never leave anyone in a parked car, as temperatures can rise over 20°F in just 10 minutes. If you must work outside, use the buddy system and take frequent breaks in the shade."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for heat stroke?",
+        "Best drinks for heat recovery",
+        "Hydration for heatstroke",
+        "Foods to avoid in heat"
+      ],
+      "responses": [
+        "Focus on 'cooling' foods with high water content, such as watermelon, cucumbers, oranges, and celery. Electrolyte-rich drinks (ORS or sports drinks) are better than plain water for recovering lost salts.",
+        "Avoid heavy, hot meals and diuretics like caffeine and alcohol, which increase fluid loss and can worsen dehydration during a heat event."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for heat stroke",
+        "Can I take aspirin for heatstroke?",
+        "First aid for heat stroke",
+        "Medication for high body heat"
+      ],
+      "responses": [
+        "There is no 'pill' for heat stroke. The primary treatment is immediate physical cooling: move to shade, spray with cool water, and use ice packs on the neck, armpits, and groin.",
+        "WARNING: Do not take Aspirin or Acetaminophen (Paracetamol) to treat a high temperature caused by heat stroke. These medications do not work on heat-induced fever and can actually cause complications like bleeding."
+      ]
+    }
+  ]
+}

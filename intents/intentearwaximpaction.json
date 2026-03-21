@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is ear wax impaction?",
+        "Define impacted earwax",
+        "What is cerumen?",
+        "Blocked ear from wax"
+      ],
+      "responses": [
+        "Earwax (cerumen) is a natural substance that protects the ear canal. Impaction occurs when this wax builds up enough to cause symptoms like hearing loss or discomfort.",
+        "Earwax is actually a sign of a healthy ear; it traps dust and bacteria. It only becomes a problem (impaction) when the ear's natural self-cleaning process is interrupted."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes ear wax buildup?",
+        "Why is my ear blocked with wax?",
+        "Do Q-tips cause earwax buildup?",
+        "Causes of hard ear wax"
+      ],
+      "responses": [
+        "The most common cause of impaction is the use of cotton swabs (Q-tips) or other objects to clean the ear, which actually pushes the wax deeper into the canal.",
+        "Using hearing aids, earplugs, or earbuds frequently can also block the natural outward flow of wax. Some people simply produce more or drier wax than others due to genetics."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are symptoms of ear wax impaction?",
+        "Signs of blocked ear",
+        "Ringing in ear from wax",
+        "Does earwax cause dizziness?"
+      ],
+      "responses": [
+        "Common signs include a feeling of fullness in the ear, muffled hearing, earache, and 'tinnitus' (ringing in the ear).",
+        "In some cases, impacted wax can cause a chronic cough (due to nerve stimulation) or even dizziness (vertigo) if the wax is pressing against the eardrum."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent ear wax buildup?",
+        "How to keep ears clean safely?",
+        "Avoiding earwax impaction",
+        "Ear hygiene tips"
+      ],
+      "responses": [
+        "The best prevention is to leave your ears alone. The 'nothing smaller than your elbow' rule applies—your ears are self-cleaning and usually don't need help.",
+        "If you are prone to buildup, you can use a few drops of mineral oil or baby oil once a week to keep the wax soft so it can migrate out naturally."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Does food affect earwax?",
+        "Diet for ear health",
+        "Can dairy cause earwax?",
+        "Foods for healthy ears"
+      ],
+      "responses": [
+        "There is no direct medical link between specific foods and earwax production. However, staying hydrated helps keep all bodily secretions, including earwax, from becoming too dry and hard.",
+        "Some anecdotal evidence suggests that diets high in Omega-3 fatty acids and Vitamin C support overall skin health within the ear canal, but dietary changes are rarely a primary treatment for impaction."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for ear wax",
+        "Ear drops for wax removal",
+        "How to soften ear wax?",
+        "Can I use peroxide in my ear?"
+      ],
+      "responses": [
+        "Over-the-counter softening drops (like Debrox) containing carbamide peroxide can help break up hard wax. Alternatively, plain mineral oil or hydrogen peroxide diluted with water can be used.",
+        "WARNING: Do not use drops if you suspect you have a perforated (holed) eardrum or an ear infection. If drops don't work, see a doctor for professional irrigation or manual removal."
+      ]
+    }
+  ]
+}

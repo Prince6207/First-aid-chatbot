@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is malaria?",
+        "Define malaria",
+        "What does a malaria infection mean?",
+        "Is malaria a virus?"
+      ],
+      "responses": [
+        "Malaria is a serious and sometimes fatal disease caused by a parasite that commonly infects a certain type of mosquito which feeds on humans.",
+        "Unlike Dengue or the Flu, Malaria is caused by Plasmodium parasites. It is characterized by cyclic attacks of shivering, high fever, and sweating."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes malaria?",
+        "How do you get malaria?",
+        "Which mosquito causes malaria?",
+        "Is malaria contagious between people?"
+      ],
+      "responses": [
+        "Malaria is transmitted through the bite of an infected female Anopheles mosquito. When the mosquito bites, it injects the parasite into your bloodstream.",
+        "It is not contagious like a cold or flu; it cannot be spread through casual contact, sitting next to someone, or kissing. It can, however, be spread through blood transfusions or shared needles."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are malaria symptoms?",
+        "Signs of malaria",
+        "Malaria fever patterns",
+        "Chills and high fever"
+      ],
+      "responses": [
+        "Symptoms usually appear 10 days to 4 weeks after the bite. They often include high fever, shaking chills, profuse sweating, headache, nausea, and muscle aches.",
+        "A hallmark of Malaria is the 'malarial paroxysm'—a cycle of coldness/shivering followed by a spike in fever and then heavy sweating as the temperature drops. If left untreated, it can cause jaundice, anemia, or kidney failure."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent malaria?",
+        "Malaria prevention tips",
+        "Avoiding mosquito bites for malaria",
+        "Malaria prophylaxis"
+      ],
+      "responses": [
+        "Use 'ABC' prevention: Awareness of risk, Bite prevention (nets and repellent), and Chemoprophylaxis (preventative medicine if traveling to high-risk areas).",
+        "Anopheles mosquitoes typically bite at night. Sleep under insecticide-treated bed nets, wear long sleeves, and use repellents containing DEET or Picaridin."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat during malaria?",
+        "Best diet for malaria recovery",
+        "Foods for malaria patients",
+        "What to drink for malaria?"
+      ],
+      "responses": [
+        "Focus on high-calorie, high-protein foods to help the body repair tissues. Small, frequent meals are better if you are experiencing nausea.",
+        "Hydration is critical due to the high fevers and sweating. Drink plenty of water, coconut water, or ORS. Vitamin C and Iron-rich foods (like leafy greens) are helpful as the parasite often causes anemia by destroying red blood cells."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for malaria",
+        "How to treat malaria?",
+        "What are antimalarial drugs?",
+        "Chloroquine and Artemisinin"
+      ],
+      "responses": [
+        "Malaria must be treated with prescription drugs to kill the parasite. Common medications include Artemisinin-based combination therapies (ACTs), Chloroquine, or Quinine.",
+        "The type of medication depends on the specific parasite species and whether the parasite is resistant to certain drugs in your geographic area. Always complete the full course of medicine even if you feel better."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after malaria?",
+        "Can malaria come back?",
+        "Recovery from malaria infection",
+        "Post-malaria weakness"
+      ],
+      "responses": [
+        "Recovery can take several weeks. You may feel tired or weak due to the loss of red blood cells (anemia). Continue eating iron-rich foods and resting until your strength returns.",
+        "Be aware that certain types of malaria (like P. vivax) can hide in the liver and cause relapses months or even years later. Ensure your doctor has prescribed medicine to clear the liver if necessary."
+      ]
+    }
+  ]
+}

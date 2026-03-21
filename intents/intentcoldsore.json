@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a cold sore?",
+        "Define fever blister",
+        "What are these blisters on my lip?",
+        "Is a cold sore a canker sore?"
+      ],
+      "responses": [
+        "A cold sore is a small, fluid-filled blister that usually appears on or around the lips. They are caused by a viral infection and often group together in patches.",
+        "Unlike canker sores (which occur inside the mouth and aren't contagious), cold sores are external and highly contagious until they are completely healed and crusted over."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes cold sores?",
+        "How did I get a cold sore?",
+        "Is cold sore a virus?",
+        "Triggers for fever blisters"
+      ],
+      "responses": [
+        "Cold sores are caused by the Herpes Simplex Virus (HSV-1). Once you have the virus, it stays in your nerve cells for life and can 'reactivate' at any time.",
+        "Common triggers for an outbreak include stress, fatigue, exposure to strong sunlight, a weakened immune system, or hormonal changes (such as during menstruation)."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are cold sore symptoms?",
+        "Tingling lip feeling",
+        "Stages of a cold sore",
+        "Signs of a fever blister"
+      ],
+      "responses": [
+        "The first sign is often a tingling, itching, or burning sensation around the lips for a day or so before a small, hard, painful spot appears and blisters.",
+        "The blisters eventually burst, ooze, and then form a crust or scab. You might also experience a fever, sore throat, or swollen lymph nodes during your first outbreak."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent cold sores?",
+        "Are cold sores contagious?",
+        "How to stop spreading cold sores?",
+        "Avoiding fever blisters"
+      ],
+      "responses": [
+        "Avoid kissing and sharing items like lip balm, towels, or utensils when a blister is present. Wash your hands frequently to avoid spreading the virus to your eyes or other people.",
+        "If sunlight is a trigger, apply a lip balm with SPF 30 or higher before going outdoors. Managing stress and getting enough sleep can also help keep the virus dormant."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for cold sores?",
+        "Lysine for cold sores",
+        "Foods to avoid with fever blisters",
+        "Does arginine cause cold sores?"
+      ],
+      "responses": [
+        "Foods rich in the amino acid Lysine (like fish, chicken, and legumes) may help suppress the virus. Some people find that avoiding foods high in Arginine (like nuts, chocolate, and gelatin) helps prevent outbreaks.",
+        "While a sore is active, avoid acidic, salty, or spicy foods (like citrus or vinegars) that can irritate the open blister and cause intense stinging."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for cold sore",
+        "Best cold sore cream",
+        "How to heal a cold sore fast?",
+        "Antiviral pills for cold sores"
+      ],
+      "responses": [
+        "Antiviral creams (like Docosanol/Abreva) or prescription pills (like Acyclovir or Valacyclovir) work best if used at the very first sign of tingling, before the blister even appears.",
+        "Over-the-counter patches can help hide the sore and reduce the risk of spreading the virus. For pain, you can use Ibuprofen or apply a cool, damp cloth to the area."
+      ]
+    }
+  ]
+}

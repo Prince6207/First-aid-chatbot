@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is hay fever?",
+        "Define seasonal allergies",
+        "What is allergic rhinitis?",
+        "Why do I get allergies in spring?"
+      ],
+      "responses": [
+        "Seasonal allergies, or hay fever, is an immune system response to outdoor or indoor allergens, such as pollen, dust mites, or tiny flecks of skin and saliva shed by cats, dogs, and other animals with fur or feathers.",
+        "Unlike a cold, which is caused by a virus, hay fever is an inflammatory response to harmless substances that your body mistakenly identifies as threats."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes seasonal allergies?",
+        "Why am I allergic to pollen?",
+        "Common allergy triggers",
+        "When is pollen season?"
+      ],
+      "responses": [
+        "The primary cause is airborne pollen from trees, grass, and weeds. Ragweed is a common culprit in the fall, while tree pollens are more prevalent in the spring.",
+        "When these allergens enter your nose or eyes, your immune system releases histamine and other chemicals into the bloodstream, causing the classic 'allergic' reaction."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are hay fever symptoms?",
+        "Signs of seasonal allergies",
+        "Itchy eyes and sneezing",
+        "How to tell allergies from a cold?"
+      ],
+      "responses": [
+        "Common symptoms include sneezing, an itchy or runny nose, and watery, red, or itchy eyes (allergic conjunctivitis).",
+        "Key distinction: Allergies usually cause itchy, watery eyes and clear nasal discharge, whereas a cold may involve a fever, body aches, and thicker, colored mucus."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent seasonal allergies?",
+        "Reducing pollen exposure",
+        "How to stop sneezing in spring?",
+        "Allergy safety tips"
+      ],
+      "responses": [
+        "Check local pollen counts and stay indoors on dry, windy days when counts are highest. Keep windows closed during peak pollen seasons (usually early morning).",
+        "After spending time outdoors, shower and change your clothes to wash off any pollen stuck to your skin or hair. Using a HEPA filter in your vacuum or air purifier can also help."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for allergies?",
+        "Can honey cure hay fever?",
+        "Anti-inflammatory foods for allergies",
+        "Foods that make allergies worse"
+      ],
+      "responses": [
+        "Quercetin-rich foods like onions, apples, and berries act as natural antihistamines. Omega-3s found in walnuts and salmon can also help reduce the systemic inflammation caused by allergies.",
+        "Some people find relief by eating local raw honey, though scientific evidence is mixed. Avoid foods that may cause 'cross-reactivity' (e.g., if you are allergic to ragweed, you might react to bananas or melons)."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for seasonal allergies",
+        "Best antihistamine for hay fever",
+        "Nasal sprays for allergies",
+        "How to stop allergy symptoms fast?"
+      ],
+      "responses": [
+        "Non-drowsy oral antihistamines (like Cetirizine, Loratadine, or Fexofenadine) are the first line of defense. They work by blocking the histamine your body produces.",
+        "Corticosteroid nasal sprays (like Fluticasone) are highly effective for long-term management of nasal congestion. Saline nasal rinses (Neti pots) can also physically flush allergens out of your nasal passages."
+      ]
+    }
+  ]
+}
