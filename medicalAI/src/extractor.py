@@ -242,11 +242,22 @@ def extract_symptoms(text: str, model_name: str = "d4data/biomedical-ner-all") -
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     test_texts = [
-        "I have been experiencing high fever, severe headache, and body aches for 3 days.",
-        "Patient presents with chest pain, shortness of breath, and dizziness.",
-        "I feel nauseous, have diarrhea, and lost my appetite.",
-        "Sudden onset of confusion, neck stiffness, and sensitivity to light."
+        "I have fever and headache",
+    "I am vomiting and feeling nauseous",
+    "I have cough and sore throat",
+    "I feel very tired and weak",
+    "My body is very hot and I feel tired",
+    "I have head pain and feel like throwing up",
+    "I am having loose motions since morning",
+    "I need to pee frequently and it burns",
+    "My nose is blocked and running"
     ]
+    # test_texts = [
+    #     "I have been experiencing high fever, severe headache, and body aches for 3 days.",
+    #     "Patient presents with chest pain, shortness of breath, and dizziness.",
+    #     "I feel nauseous, have diarrhea, and lost my appetite.",
+    #     "Sudden onset of confusion, neck stiffness, and sensitivity to light."
+    # ]
     for txt in test_texts:
         result = extract_symptoms(txt)
         print(f"\nText: {txt}")
