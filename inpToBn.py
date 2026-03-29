@@ -5,7 +5,107 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-SYMPTOMS = ['depression','shortnessofbreath','depressiveorpsychoticsymptoms','sharpchestpain','dizziness','abnormalinvoluntarymovements','sorethroat','cough','nasalcongestion','throatswelling','diminishedhearing','lumpinthroat','throatfeelstight','skinswelling','retentionofurine','legpain','suprapubicpain','lackofgrowth','elbowweakness','whitedischargefromeye','abusingalcohol','fainting','drugabuse','sharpabdominalpain','vomiting','headache','nausea','diarrhea','vaginalitching','painfulurination','frequenturination','lowerabdominalpain','vaginaldischarge','bloodinurine','wristpain','handorfingerswelling','armpain','lipswelling','abnormalappearingskin','skinlesion','acneorpimples','mouthulcer','diminishedvision','painineye','irregularappearingscalp','backpain','neckpain','lowbackpain','pelvicpain','vomitingblood','wheezing','peripheraledema','earpain','footortoepain','skinmoles','kneelumpormass','vaginalpain','weakness','ringinginear','pluggedfeelinginear','frontalheadache','fluidinear','spotsorcloudsinvision','eyeredness','lacrimation','itchinessofeye','blindness','lossofsensation','slurringwords','symptomsoftheface','disturbanceofmemory','sidepain','fever','acheallover','changesinstoolappearance','chills','fatigue','melena','coryza','allergicreaction','sleepiness','abnormalbreathingsounds','pullingatears','rednessinear','fluidretention','flu-likesyndrome','sinuscongestion','musclecramps,contractures,orspasms','nosebleed','swolleneye','itchingofskin','skindryness,peeling,scaliness,orroughness','skinrash','feelinghot','swollenorredtonsils','lipsore','sneezing','diaperrash','throatredness']
+SYMPTOMS = [
+    "depression",
+    "shortnessofbreath",
+    "depressiveorpsychoticsymptoms",
+    "sharpchestpain",
+    "dizziness",
+    "abnormalinvoluntarymovements",
+    "sorethroat",
+    "cough",
+    "nasalcongestion",
+    "throatswelling",
+    "diminishedhearing",
+    "lumpinthroat",
+    "throatfeelstight",
+    "skinswelling",
+    "retentionofurine",
+    "legpain",
+    "suprapubicpain",
+    "lackofgrowth",
+    "elbowweakness",
+    "whitedischargefromeye",
+    "abusingalcohol",
+    "fainting",
+    "drugabuse",
+    "sharpabdominalpain",
+    "vomiting",
+    "headache",
+    "nausea",
+    "diarrhea",
+    "vaginalitching",
+    "painfulurination",
+    "frequenturination",
+    "lowerabdominalpain",
+    "vaginaldischarge",
+    "bloodinurine",
+    "wristpain",
+    "handorfingerswelling",
+    "armpain",
+    "lipswelling",
+    "abnormalappearingskin",
+    "skinlesion",
+    "acneorpimples",
+    "mouthulcer",
+    "diminishedvision",
+    "painineye",
+    "irregularappearingscalp",
+    "backpain",
+    "neckpain",
+    "lowbackpain",
+    "pelvicpain",
+    "vomitingblood",
+    "wheezing",
+    "peripheraledema",
+    "earpain",
+    "footortoepain",
+    "skinmoles",
+    "kneelumpormass",
+    "vaginalpain",
+    "weakness",
+    "ringinginear",
+    "pluggedfeelinginear",
+    "frontalheadache",
+    "fluidinear",
+    "spotsorcloudsinvision",
+    "eyeredness",
+    "lacrimation",
+    "itchinessofeye",
+    "blindness",
+    "lossofsensation",
+    "slurringwords",
+    "symptomsoftheface",
+    "disturbanceofmemory",
+    "sidepain",
+    "fever",
+    "acheallover",
+    "changesinstoolappearance",
+    "chills",
+    "fatigue",
+    "melena",
+    "coryza",
+    "allergicreaction",
+    "sleepiness",
+    "abnormalbreathingsounds",
+    "pullingatears",
+    "rednessinear",
+    "fluidretention",
+    "flu-likesyndrome",
+    "sinuscongestion",
+    "musclecramps,contractures,orspasms",
+    "nosebleed",
+    "swolleneye",
+    "itchingofskin",
+    "skindryness,peeling,scaliness,orroughness",
+    "skinrash",
+    "feelinghot",
+    "swollenorredtonsils",
+    "lipsore",
+    "sneezing",
+    "diaperrash",
+    "throatredness",
+]
 
 
 MODEL_NAME = "d4data/biomedical-ner-all"
@@ -14,12 +114,8 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME)
 
 ner_pipeline = pipeline(
-    "ner",
-    model=model,
-    tokenizer=tokenizer,
-    aggregation_strategy="simple"
+    "ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple"
 )
-
 
 NORMALIZER = {
     "tired": "fatigue",
@@ -38,13 +134,13 @@ NORMALIZER = {
     "head pain": "headache",
     "pain": "sharpabdominalpain",
     "itchy": "itchingofskin",
-    "rash": "skinrash"
+    "rash": "skinrash",
 }
 
 
 def normalize_text(text):
     text = text.lower()
-    text = re.sub(r'[^a-z\s]', ' ', text)
+    text = re.sub(r"[^a-z\s]", " ", text)
     return text
 
 
@@ -53,8 +149,8 @@ def extract_biobert(text):
     symptoms = []
 
     for ent in entities:
-        if ent['entity_group'] == 'Sign_symptom':
-            symptoms.append(ent['word'].lower())
+        if ent["entity_group"] == "Sign_symptom":
+            symptoms.append(ent["word"].lower())
 
     return symptoms
 
@@ -73,6 +169,7 @@ def normalize_symptoms(sym_list):
 
 vectorizer = TfidfVectorizer().fit(SYMPTOMS)
 
+
 def tfidf_match(text, threshold=0.3):
     vec = vectorizer.transform([text])
     sym_vec = vectorizer.transform(SYMPTOMS)
@@ -89,8 +186,9 @@ PHRASE_MAP = {
     "pee frequently": "frequenturination",
     "burning urination": "painfulurination",
     "runny nose": "coryza",
-    "blocked nose": "nasalcongestion"
+    "blocked nose": "nasalcongestion",
 }
+
 
 def rule_match(text):
     detected = set()
@@ -123,7 +221,6 @@ def statement_to_bn_input(user_input):
     # FINAL FUSION
     final_symptoms = bio_norm | rule | tfidf
 
-
     bn_input = {sym: 0 for sym in SYMPTOMS}
 
     for sym in final_symptoms:
@@ -131,6 +228,7 @@ def statement_to_bn_input(user_input):
             bn_input[sym] = 1
 
     return bn_input, list(final_symptoms)
+
 
 # while True:
 #     q = input("Ask: ")
@@ -142,13 +240,21 @@ def statement_to_bn_input(user_input):
 
 
 # # Define test inputs
-# test_inputs = [
-#     "nothing is wrong I am perfectly fine just checking system lol random words without meaning"
-# ]
+test_inputs = [
+    "umm idk but like I think maybe fever?? and headache idk guess I have something "
+    "like nausea or something not sure but my skin is kinda itchy and red",
+    "i have been feeling really cold and shivering since morning, slight fever too",
+    "my eyes are red and watery and i keep sneezing, kind of itchy throat",
+    "what is dengue fever?",
+    "how do I treat a migraine at home?",
+    "I have a really painful blister on my lip, what could it be?",
+]
 
 # print("\nRunning predefined test cases...\n")
 # for inp in test_inputs:
 #     bn_input, detected = statement_to_bn_input(inp)
 #     print(f"Input: {inp}")
 #     print("Answer:", detected)
+#     print("BN Input :", bn_input)
+    
 #     print("-" * 50)

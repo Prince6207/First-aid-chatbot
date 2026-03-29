@@ -1,45 +1,34 @@
-import numpy as np
 import pickle
 from pgmpy.inference import VariableElimination
-from inpToBn import statement_to_bn_input
 
-vec, d = statement_to_bn_input("umm idk but like I think maybe fever?? and headache idk guess I have something like nausea or something not sure but my skin is kinda itchy and red")
-print(d)
-
-with open("model.pkl", "rb") as f:
-    bn_model = pickle.load(f)
-
-print("Model loaded successfully!")
-
-print(bn_model.nodes())
-print(bn_model.check_model())
-print(bn_model.edges())
-
-inference_engine = VariableElimination(bn_model)
-
-result = inference_engine.query(variables=['diseases'], evidence=vec)
-
-print(result)
-
-import numpy as np
-
-def get_top_k_diseases(result, k=3):
+def find_top_k(vec, k=3, model_path="model.pkl"):
     """
-    result: DiscreteFactor from pgmpy inference.query
-    k: number of top diseases to return
+    vec: dict
+        Evidence dictionary for Bayesian Network inference.
+    k: int
+        Number of top diseases to return.
+    model_path: str
+        Path to the pickled Bayesian Network model.
+    Returns:
+        List of tuples (disease, probability) for top-k diseases.
     """
+    with open(model_path, "rb") as f:
+        bn_model = pickle.load(f)
+
+    inference_engine = VariableElimination(bn_model)
+
+    result = inference_engine.query(variables=['diseases'], evidence=vec)
 
     probs = result.values
-    
     states = result.state_names['diseases']
 
     disease_probs = list(zip(states, probs))
-
     disease_probs.sort(key=lambda x: x[1], reverse=True)
 
     return disease_probs[:k]
 
-# Example usage
-top_diseases = get_top_k_diseases(result, k=2)
-for disease, prob in top_diseases:
-    print(f"{disease}: {prob:.4f}")
+# Example usage:
+# vec, d = statement_to_bn_input("fever and headache with nausea")
+# top_diseases = find_top_k(vec, k=2)
+# for disease, prob in top_diseases:
+#     print(f"{disease}: {prob:.4f}")
