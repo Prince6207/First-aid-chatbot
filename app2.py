@@ -49,7 +49,7 @@ if st.session_state.predicted_disease:
     pred_name = st.session_state.predicted_disease
     i = st.session_state.disease_id
     rawjson=r'C:\Users\princ\OneDrive\Desktop\AI Project\intents\intent'
-    rawmodel=r'C:\Users\princ\OneDrive\Desktop\AI Project\models\model'
+    rawmodel=r'C:\Users\princ\OneDrive\Desktop\AI Project\models2\model'
     with open(rawjson+i+'.json') as f:
         data=json.load(f)
     data=data['intents']
@@ -66,7 +66,7 @@ if st.session_state.predicted_disease:
             docs_x.append(pattern)
             docs_y.append(doc['tag'])
     words=sorted(list(set(words)))
-    model=load_model(rawmodel+i+'.keras')
+    model=load_model(rawmodel+i+'.h5')
     st.write('Type "quit" to exit')
     with st.form(key='chat_form', clear_on_submit=True):
         ques = st.text_input(f'Ask something about {pred_name}')
