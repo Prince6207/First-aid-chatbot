@@ -333,6 +333,8 @@ class MedicalChatbot:
         diseases = clean_topk(raw_topk)
 
         explicit = detect_disease_from_text(text, self.store)
+        if(explicit == None):
+            print("I don't know, Can't say anything.")
 
         if explicit and explicit in self.store.files:
             file = self.store.files[explicit]
