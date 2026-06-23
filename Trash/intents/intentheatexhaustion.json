@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is heat exhaustion?",
+        "Define heat exhaustion",
+        "Am I overheated?",
+        "Difference between heat exhaustion and stroke"
+      ],
+      "responses": [
+        "Heat exhaustion is a condition where your body overheats due to high temperatures and dehydration. It is less severe than heat stroke, but without treatment, it can quickly progress into a medical emergency.",
+        "It happens when your body's cooling system (sweating) can't keep up with the heat, leading to a state of physical depletion."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes heat exhaustion?",
+        "How do you get heat exhaustion?",
+        "Why am I so tired in the heat?",
+        "Dehydration and heat"
+      ],
+      "responses": [
+        "The primary cause is a combination of high environmental temperatures and physical activity. Dehydration is a major factor, as it prevents your body from producing enough sweat to cool itself.",
+        "Wearing dark or heavy clothing and consuming alcohol in the sun can also trigger heat exhaustion by trapping heat and dehydrating the body further."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are symptoms of heat exhaustion?",
+        "Signs of being overheated",
+        "Why am I dizzy in the sun?",
+        "Heavy sweating and nausea"
+      ],
+      "responses": [
+        "Common symptoms include heavy sweating, a rapid but weak pulse, dizziness, fatigue, and nausea. You may also experience muscle cramps and a 'cool, moist' skin texture with goosebumps even in the heat.",
+        "Unlike heat stroke (where the skin is dry), heat exhaustion usually involves profuse sweating. If you stop sweating or become confused, you have likely progressed to heat stroke."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent heat exhaustion?",
+        "Avoiding overheating",
+        "Safe summer habits",
+        "Heat safety tips"
+      ],
+      "responses": [
+        "Stay hydrated by drinking water or electrolyte drinks consistently, even if you don't feel thirsty. Wear loose, light-colored clothing and take frequent breaks in shaded or air-conditioned areas.",
+        "Acclimatize yourself: if you aren't used to hot weather, limit your time outdoors for the first few days of a heatwave until your body adapts."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for heat exhaustion?",
+        "Best drinks for overheating",
+        "Hydration for heat recovery",
+        "Salt and heat exhaustion"
+      ],
+      "responses": [
+        "Drink cool (not ice-cold) water or sports drinks containing electrolytes to replace the salt and minerals lost through heavy sweating.",
+        "Eat water-dense snacks like chilled cucumber, watermelon, or leafy greens. Avoid caffeine and high-protein meals, as these can increase metabolic heat and fluid loss."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for heat exhaustion",
+        "Treatment for heat exhaustion",
+        "How to cool down fast?",
+        "Can I take ibuprofen for heat?"
+      ],
+      "responses": [
+        "The best 'medicine' for heat exhaustion is physical cooling. Move to a cool area, lie down with your legs slightly elevated, and apply cool, wet cloths to your skin.",
+        "Oral Rehydration Salts (ORS) are highly recommended. Generally, fever-reducing medications (like Aspirin or Paracetamol) are not effective for heat exhaustion and should be avoided unless recommended by a doctor."
+      ]
+    }
+  ]
+}

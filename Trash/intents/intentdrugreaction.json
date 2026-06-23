@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a drug reaction?",
+        "Define adverse drug reaction",
+        "Difference between side effect and allergy",
+        "What is a medication allergy?"
+      ],
+      "responses": [
+        "A drug reaction is any unexpected or dangerous response to a medication. This includes side effects (predictable responses), drug-to-drug interactions, and true allergic reactions involving the immune system.",
+        "While many reactions are mild, some can be severe. It is important to identify if the reaction is a 'side effect' like an upset stomach, or an 'allergy' like a skin rash or breathing difficulty."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes drug reactions?",
+        "Why am I reacting to my medicine?",
+        "Drug interaction causes",
+        "Can a new medicine cause a rash?"
+      ],
+      "responses": [
+        "Reactions occur when the body's immune system mistakenly identifies a drug as a harmful substance (allergy), or when a drug interacts poorly with your genetics, another medication, or even certain foods.",
+        "Common triggers include antibiotics (like Penicillin or Sulfa drugs), NSAIDs (like Aspirin or Ibuprofen), and certain anti-seizure or chemotherapy medications."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are symptoms of a drug reaction?",
+        "Signs of medication allergy",
+        "Red spots after taking medicine",
+        "Hives from antibiotics"
+      ],
+      "responses": [
+        "Mild symptoms include skin rashes, hives (itchy red welts), itching, or a low-grade fever. More severe reactions might include swelling of the face, lips, or tongue.",
+        "EMERGENCY: Seek immediate help if you experience 'Anaphylaxis' (shortness of breath, wheezing, or feeling faint) or 'Stevens-Johnson Syndrome' (severe blistering and peeling of the skin or mucous membranes)."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent drug reactions?",
+        "Avoiding medication allergies",
+        "Safety tips for new prescriptions",
+        "Checking for drug interactions"
+      ],
+      "responses": [
+        "Always inform your doctor and pharmacist about any known drug allergies. Wear a medical alert bracelet if you have a history of severe reactions.",
+        "Keep an up-to-date list of all medications, including over-the-counter supplements, to help your doctor check for potential 'drug-to-drug' interactions before prescribing something new."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Food and drug interactions",
+        "What not to eat with medicine?",
+        "Can food cause a drug reaction?",
+        "Grapefruit and medicine"
+      ],
+      "responses": [
+        "Certain foods can change how your body processes medicine. For example, grapefruit juice can interfere with enzymes that break down many drugs, leading to dangerously high levels of the medication in your system.",
+        "Dairy products can block the absorption of some antibiotics, while leafy greens (rich in Vitamin K) can interfere with blood-thinning medications like Warfarin."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for drug reaction",
+        "How to treat a medicine allergy?",
+        "Antihistamines for drug rash",
+        "Stopping a reaction fast"
+      ],
+      "responses": [
+        "The first step is usually to STOP taking the suspected medication and contact your doctor. For mild itching or hives, over-the-counter antihistamines like Cetirizine or Diphenhydramine (Benadryl) can provide relief.",
+        "Severe reactions require professional medical intervention, which may include corticosteroids to reduce inflammation or an epinephrine injection for life-threatening respiratory distress."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after a drug reaction?",
+        "Recovering from medication allergy",
+        "Testing for drug allergies",
+        "Will the rash go away?"
+      ],
+      "responses": [
+        "Most drug rashes clear up within a few days to a week after stopping the medication. Follow up with an allergist to confirm the trigger through skin or blood testing.",
+        "Update your medical records immediately and ensure all your healthcare providers are aware of the reaction to prevent future accidental exposure to the same drug or similar 'cross-reactive' medications."
+      ]
+    }
+  ]
+}

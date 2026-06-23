@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is high blood pressure?",
+        "Define hypertension",
+        "What do blood pressure numbers mean?",
+        "Is 140/90 high?"
+      ],
+      "responses": [
+        "High blood pressure, or hypertension, is a condition where the force of the blood against your artery walls is consistently too high. Over time, this causes the heart to work harder, which can lead to heart disease or stroke.",
+        "Blood pressure is recorded as two numbers: Systolic (pressure when the heart beats) over Diastolic (pressure when the heart rests). A normal reading is typically around 120/80 mmHg."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes high blood pressure?",
+        "Why is my blood pressure high?",
+        "Risk factors for hypertension",
+        "Is high blood pressure genetic?"
+      ],
+      "responses": [
+        "Primary hypertension often develops gradually over many years due to a mix of genetics, aging, and lifestyle factors. Secondary hypertension can be caused by underlying conditions like kidney disease or thyroid problems.",
+        "Common lifestyle triggers include a diet high in salt (sodium), lack of physical activity, being overweight, excessive alcohol consumption, and chronic stress."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are high blood pressure symptoms?",
+        "Signs of hypertension",
+        "How do I know if my BP is high?",
+        "Headache and high blood pressure"
+      ],
+      "responses": [
+        "Hypertension is often called a 'silent killer' because most people have no symptoms, even if their readings reach dangerously high levels.",
+        "In severe cases (Hypertensive Crisis), symptoms may include severe headaches, shortness of breath, nosebleeds, chest pain, or vision changes. If you experience these with a very high BP reading, seek emergency care."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent high blood pressure?",
+        "Avoiding hypertension",
+        "How to lower blood pressure naturally?",
+        "Lifestyle changes for BP"
+      ],
+      "responses": [
+        "Reduce your sodium (salt) intake and stay physically active for at least 30 minutes a day. Maintaining a healthy weight and limiting alcohol can significantly lower your risk.",
+        "Quit smoking, as tobacco chemicals damage the walls of your arteries and narrow them, which immediately raises your blood pressure."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for high blood pressure?",
+        "DASH diet for hypertension",
+        "Foods that lower blood pressure",
+        "Is salt bad for blood pressure?"
+      ],
+      "responses": [
+        "The DASH diet (Dietary Approaches to Stop Hypertension) is highly recommended. It focuses on fruits, vegetables, whole grains, and lean proteins while minimizing saturated fats and sugar.",
+        "Prioritize potassium-rich foods like bananas, spinach, and beans, which help your body flush out excess sodium. Avoid processed foods, canned soups, and deli meats, as they are usually hidden salt traps."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for high blood pressure",
+        "How to treat hypertension?",
+        "What are ACE inhibitors?",
+        "Best blood pressure pills"
+      ],
+      "responses": [
+        "Medications like Diuretics, ACE inhibitors, or Beta-blockers may be prescribed by a doctor to help your body eliminate water or relax blood vessels.",
+        "Treatment is highly individualized. WARNING: Never stop taking your blood pressure medication without consulting your doctor, even if you feel fine, as this can cause a dangerous 'rebound' spike in pressure."
+      ]
+    }
+  ]
+}

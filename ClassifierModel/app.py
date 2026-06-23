@@ -60,24 +60,25 @@ FALLBACK_RESPONSE = "I am a First-Aid assistant focused on core health details. 
 # ==========================================
 def load_disease_json(disease_name):
     """
-    Looks for the matching intent file inside ../intents/ using common naming patterns.
+    Looks for the matching intent file inside the 'intents/' folder.
+    Handles disease names with spaces (e.g., 'common cold' -> 'common_cold').
     """
     clean_name = disease_name.strip()
-    base_dir = os.path.join("..", "intents")   # go up one level, then into intents/
-
-    # Generate potential file naming variants
+    underscore_name = clean_name.replace(" ", "")
+    
+    folder = "intents"
+    
     file_variants = [
-        f"{clean_name}intent.json",
-        f"{clean_name.lower()}intent.json",
-        f"intent_{clean_name}.json",
-        f"{clean_name}_intent.json"
+        f"{folder}/intent{clean_name}.json",
+        f"{folder}/intent{underscore_name}.json",
     ]
-
+    
     for variant in file_variants:
-        filepath = os.path.join(base_dir, variant)
-        if os.path.exists(filepath):
-            with open(filepath, "r", encoding="utf-8") as f:
+        if os.path.exists(variant):
+            with open(variant, "r", encoding="utf-8") as f:
                 return json.load(f)
+                
+    print(f"Failed to find file. Looked for these paths: {file_variants}")
     return None
 
 # ==========================================

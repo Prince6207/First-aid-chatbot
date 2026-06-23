@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a muscle spasm?",
+        "Define muscle cramp",
+        "What causes involuntary muscle movement?",
+        "What is a charley horse?"
+      ],
+      "responses": [
+        "A muscle spasm is a sudden, involuntary contraction of one or more muscles. While usually harmless, they can cause significant pain and temporary inability to use the affected muscle.",
+        "These contractions occur when the muscle fibers tighten uncontrollably. They are most common in the calves, thighs, arches of the foot, and lower back."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes muscle spasms?",
+        "Why do my muscles twitch?",
+        "Causes of leg cramps at night",
+        "Overuse of muscles"
+      ],
+      "responses": [
+        "The most common causes include muscle fatigue, dehydration, and low levels of electrolytes like magnesium, potassium, or calcium.",
+        "Other triggers include poor blood circulation to the limbs, nerve compression (like a pinched nerve in the back), or side effects from certain medications like diuretics."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are muscle spasm symptoms?",
+        "Signs of a muscle cramp",
+        "Hard lump in muscle",
+        "Twitching under the skin"
+      ],
+      "responses": [
+        "Common symptoms include a sudden, sharp pain in the muscle and a visible or palpable hard lump of muscle tissue beneath the skin.",
+        "You may also experience 'fasciculations,' which are small, involuntary twitches that you can see flickering under the skin but don't necessarily cause intense pain."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent muscle spasms?",
+        "Avoiding leg cramps",
+        "How to stop muscles from twitching?",
+        "Stretching for cramps"
+      ],
+      "responses": [
+        "Stay hydrated and stretch your muscles regularly, especially before and after exercise. If you get leg cramps at night, try stretching your calves right before bed.",
+        "Improve your ergonomics if you sit at a desk all day, and ensure you are wearing supportive footwear to prevent strain on the muscles of the feet and legs."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for muscle spasms?",
+        "Best foods for cramps",
+        "Does potassium help muscle spasms?",
+        "Magnesium for muscles"
+      ],
+      "responses": [
+        "Focus on foods high in potassium (bananas, sweet potatoes, avocados) and magnesium (spinach, pumpkin seeds, dark chocolate). These minerals are essential for proper muscle contraction and relaxation.",
+        "Calcium-rich foods like yogurt or fortified plant milks are also vital. Drinking tonic water (which contains quinine) is a common home remedy for nighttime leg cramps, though its effectiveness varies."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for muscle spasms",
+        "Best muscle relaxants",
+        "How to treat a muscle cramp fast?",
+        "Pain relief for spasms"
+      ],
+      "responses": [
+        "For immediate relief, gently stretch and massage the muscle. Applying heat to tight muscles or ice to sore muscles can also help.",
+        "Over-the-counter NSAIDs like Ibuprofen can help with post-cramp soreness. For chronic spasms, a doctor may prescribe muscle relaxants or suggest magnesium supplements, but these should only be taken under medical supervision."
+      ]
+    }
+  ]
+}

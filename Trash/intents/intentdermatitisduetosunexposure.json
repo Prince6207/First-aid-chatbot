@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is solar dermatitis?",
+        "Define sun exposure dermatitis",
+        "What is a sun allergy?",
+        "Am I allergic to the sun?"
+      ],
+      "responses": [
+        "Dermatitis due to sun exposure, or photosensitivity, is an immune system reaction to sunlight. Unlike a standard sunburn, it often causes an itchy rash, red bumps, or blisters even after brief exposure.",
+        "It is commonly called a 'sun allergy.' While anyone can get a sunburn if they stay out long enough, solar dermatitis happens specifically to people whose skin is hypersensitive to UV radiation."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes sun dermatitis?",
+        "Why do I get a rash from the sun?",
+        "Causes of photosensitivity",
+        "Can medication cause sun rash?"
+      ],
+      "responses": [
+        "The primary cause is an immune system response triggered by UV rays. However, it can also be caused by 'phototoxicity,' where certain medications or chemicals on the skin react with sunlight.",
+        "Common triggers include certain antibiotics, NSAIDs (like Ibuprofen), fragrances, or even some sunscreens. Genetics and underlying conditions like Lupus can also play a role."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are sun dermatitis symptoms?",
+        "Signs of sun allergy",
+        "Itchy bumps after being in the sun",
+        "Sun rash vs sunburn"
+      ],
+      "responses": [
+        "Symptoms include itchy red patches, tiny fluid-filled blisters, or raised bumps (hives). It typically appears on the 'V' of the neck, the backs of the hands, and the outer arms.",
+        "Unlike a sunburn which feels painful and hot, solar dermatitis is usually intensely itchy. The rash may appear within minutes or several hours after exposure."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent sun dermatitis?",
+        "Avoiding sun allergy",
+        "How to protect skin from sun rash?",
+        "Best sunscreen for photosensitivity"
+      ],
+      "responses": [
+        "Use a broad-spectrum, mineral-based sunscreen (containing Zinc Oxide or Titanium Dioxide), as chemical sunscreens can sometimes trigger the reaction themselves.",
+        "Wear UPF-rated protective clothing and wide-brimmed hats. Seek shade during peak UV hours (10:00 AM to 4:00 PM) and consider 'UV windows' for your car if your sensitivity is extreme."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for sun dermatitis?",
+        "Best diet for sun allergy",
+        "Can food help prevent sun rash?",
+        "Antioxidants for skin protection"
+      ],
+      "responses": [
+        "Focus on an antioxidant-rich diet. Lycopene (found in cooked tomatoes) and Beta-carotene (in carrots and sweet potatoes) can help provide a mild 'internal' shield against UV damage over time.",
+        "Omega-3 fatty acids found in walnuts, flaxseeds, and fatty fish help reduce systemic inflammation, which can lower the severity of the skin's allergic response to the sun."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for sun dermatitis",
+        "Cream for sun allergy rash",
+        "How to treat sun bumps?",
+        "Hydrocortisone for sun rash"
+      ],
+      "responses": [
+        "Over-the-counter hydrocortisone cream (1%) can help reduce redness and itching. For severe itching, oral antihistamines like Cetirizine or Loratadine are effective.",
+        "Cool compresses or calamine lotion can provide immediate relief. If the rash is severe, a dermatologist may prescribe stronger steroid creams or even a short course of oral steroids."
+      ]
+    }
+  ]
+}

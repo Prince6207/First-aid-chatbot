@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is drug poisoning?",
+        "Define medication overdose",
+        "What does toxicity mean?",
+        "I took too many pills"
+      ],
+      "responses": [
+        "Drug poisoning, or overdose, occurs when a person takes more than the recommended dose of a prescription, over-the-counter, or illegal drug. This leads to toxic levels of the substance in the bloodstream.",
+        "Toxicity can happen suddenly (acute) from a single large dose, or build up over time (chronic) if a person consistently takes slightly more than the safe limit."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes drug poisoning?",
+        "How does an overdose happen?",
+        "Accidental poisoning causes",
+        "Mixing medications danger"
+      ],
+      "responses": [
+        "Common causes include accidental double-dosing, confusing similar-looking medications, or a child finding and swallowing pills. Mixing medications with alcohol or other drugs can also trigger a toxic reaction.",
+        "In some cases, the body's organs (like the liver or kidneys) may not be processing the drug correctly, leading to a dangerous buildup even at standard doses."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are symptoms of drug poisoning?",
+        "Signs of an overdose",
+        "How to tell if someone is poisoned by medicine?",
+        "Pupils look weird after pills"
+      ],
+      "responses": [
+        "Symptoms vary depending on the drug but often include extreme sleepiness, confusion, nausea, vomiting, or abdominal pain. Look for 'pinpoint' or very large pupils and unusual breath odors.",
+        "EMERGENCY SIGNS: If the person is unresponsive, having a seizure, struggling to breathe, or has a very slow or irregular heart rate, call emergency services (like 911 or Poison Control) immediately."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent drug poisoning?",
+        "Safe medication storage",
+        "Avoiding an overdose",
+        "Childproofing medicine"
+      ],
+      "responses": [
+        "Always keep medications in their original labeled containers and store them in a locked cabinet out of reach of children. Use a pill organizer or a checklist to track doses and avoid double-taking.",
+        "Never share prescriptions with others and always check with a pharmacist before mixing a new over-the-counter supplement with your current medications."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat after drug poisoning?",
+        "Diet for liver recovery",
+        "Can food help an overdose?",
+        "Foods to avoid during toxicity"
+      ],
+      "responses": [
+        "During an active overdose, do not give the person anything to eat or drink, as this can cause choking or interfere with emergency treatment. Seek medical help first.",
+        "Once discharged, focus on a bland diet (BRAT diet) and stay hydrated to help the kidneys flush out toxins. Avoid alcohol and fatty foods that might stress a liver already recovering from toxicity."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for drug poisoning",
+        "How to treat an overdose?",
+        "Antidote for medication poisoning",
+        "Should I induce vomiting for pills?"
+      ],
+      "responses": [
+        "WARNING: Never induce vomiting unless specifically told to do so by a Poison Control professional. Some substances can cause more damage if they come back up through the throat.",
+        "In a hospital, doctors may use 'Activated Charcoal' to soak up the drug in the stomach or specific antidotes (like Naloxone for opioids or Acetylcysteine for paracetamol/Tylenol overdose)."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "Recovery after overdose",
+        "What happens after drug poisoning?",
+        "Long term effects of drug toxicity",
+        "How to clean the system after poisoning"
+      ],
+      "responses": [
+        "Recovery depends on the drug and the severity of the poisoning. You may need follow-up blood tests to check liver and kidney function. It is common to feel weak or mentally foggy for several days.",
+        "Consult with a healthcare provider to review your medication plan. If the poisoning was accidental, they can help you set up a safer dosing schedule to prevent it from happening again."
+      ]
+    }
+  ]
+}
