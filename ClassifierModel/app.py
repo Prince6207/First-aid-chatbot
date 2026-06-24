@@ -170,7 +170,7 @@ if st.session_state.detected_disease and st.session_state.disease_knowledge:
         if predicted_tag != "None":
             intents_list = st.session_state.disease_knowledge.get("intents", [])
             for intent in intents_list:
-                if intent.get("tag") == predicted_tag:
+                if intent.get("tag").strip() == predicted_tag.strip():
                     responses = intent.get("responses", [])
                     if responses:
                         final_reply = "\n".join(responses)

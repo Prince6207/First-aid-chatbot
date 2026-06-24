@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is typhoid fever?",
+        "Define typhoid",
+        "What does enteric fever mean?",
+        "Is typhoid a virus or bacteria?"
+      ],
+      "responses": [
+        "Typhoid fever is a life-threatening systemic infection caused by the bacterium Salmonella Typhi. It is common in places with poor sanitation and a lack of safe drinking water.",
+        "Also known as 'Enteric Fever,' it primarily affects the intestinal tract and the bloodstream. If left untreated, it can lead to serious complications like intestinal bleeding or perforation."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes typhoid?",
+        "How do you get typhoid fever?",
+        "Is typhoid contagious?",
+        "Contaminated food and water typhoid"
+      ],
+      "responses": [
+        "Typhoid is spread through the 'fecal-oral' route. This happens when a person consumes food or water handled by someone who is shedding the bacteria or when sewage contaminates drinking water.",
+        "It is highly contagious. You can catch it by eating raw vegetables fertilized with human waste or by using contaminated ice in drinks."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are typhoid symptoms?",
+        "Signs of typhoid fever",
+        "Step-ladder fever pattern",
+        "Rose spots on chest"
+      ],
+      "responses": [
+        "Common symptoms include a sustained high fever (often increasing daily in a 'step-ladder' fashion), severe headache, abdominal pain, and either constipation or diarrhea.",
+        "A unique sign is 'Rose Spots'—small, faint pink spots that appear on the chest or abdomen. You may also experience extreme fatigue, a dry cough, and an enlarged liver or spleen."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent typhoid?",
+        "Typhoid vaccine information",
+        "Safe eating habits for typhoid",
+        "Avoiding enteric fever"
+      ],
+      "responses": [
+        "Follow the 'Boil it, cook it, peel it, or forget it' rule. Only drink bottled or boiled water, avoid ice unless it's made from safe water, and ensure all food is thoroughly cooked and served hot.",
+        "Vaccination is highly recommended for those living in or traveling to high-risk areas. Frequent handwashing with soap, especially before eating or after using the bathroom, is the best defense."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat during typhoid?",
+        "Best diet for typhoid recovery",
+        "Foods to avoid with typhoid",
+        "Can I eat fruit during typhoid?"
+      ],
+      "responses": [
+        "Stick to a high-calorie, low-fiber diet to avoid irritating the inflamed intestines. Opt for boiled rice, baked potatoes, white bread, and well-cooked vegetables.",
+        "Stay hydrated with ORS, fresh fruit juices (strained), and coconut water. Avoid high-fiber foods (like raw salads and whole grains), spicy foods, and fried items, as these can put stress on your digestive system."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for typhoid",
+        "How to treat typhoid fever?",
+        "What antibiotics for typhoid?",
+        "Can typhoid be cured at home?"
+      ],
+      "responses": [
+        "Typhoid must be treated with antibiotics prescribed by a doctor (such as Azithromycin, Ceftriaxone, or Ciprofloxacin). Resistance to some antibiotics is common, so a blood culture is often needed to choose the right drug.",
+        "While symptoms may improve in a few days, you MUST finish the entire antibiotic course to ensure the bacteria are completely cleared from your system."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after typhoid recovery?",
+        "Can typhoid come back?",
+        "Being a typhoid carrier",
+        "Follow up tests for typhoid"
+      ],
+      "responses": [
+        "Even after symptoms disappear, you may still carry the bacteria. It is important to have 'clearance cultures' (stool tests) to ensure you are no longer contagious before returning to food handling or childcare.",
+        "Focus on rebuilding your gut health with probiotics and a gradual return to a normal diet. If fever returns, see your doctor immediately, as relapses can occur in about 10% of cases."
+      ]
+    }
+  ]
+}

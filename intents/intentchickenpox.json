@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is chickenpox?",
+        "Define varicella",
+        "What are these itchy blisters?",
+        "Is chickenpox dangerous?"
+      ],
+      "responses": [
+        "Chickenpox is a highly contagious viral infection that causes an itchy, blister-like rash on the skin. It used to be a common childhood illness but is now largely preventable through vaccination.",
+        "While usually mild in healthy children, it can be more severe in adults, pregnant women, and people with weakened immune systems, potentially leading to pneumonia or bacterial skin infections."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes chickenpox?",
+        "How do you catch chickenpox?",
+        "Is chickenpox a virus?",
+        "How does varicella spread?"
+      ],
+      "responses": [
+        "Chickenpox is caused by the Varicella-zoster virus (VZV). It spreads through direct contact with the rash or by breathing in air particles from an infected person’s coughs or sneezes.",
+        "A person is contagious about 1 to 2 days before the rash appears and remains contagious until all the blisters have scabbed over."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are chickenpox symptoms?",
+        "Signs of varicella",
+        "Itchy red bumps and fever",
+        "How to tell if it's chickenpox?"
+      ],
+      "responses": [
+        "The hallmark symptom is an itchy rash that turns into fluid-filled blisters and eventually scabs. Other symptoms include fever, tiredness, loss of appetite, and headache.",
+        "The rash usually starts on the chest, back, and face, and then spreads to the rest of the body, including inside the mouth or on the eyelids."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent chickenpox?",
+        "Is there a vaccine for chickenpox?",
+        "Avoiding varicella",
+        "How to not spread chickenpox?"
+      ],
+      "responses": [
+        "The best way to prevent chickenpox is to get the varicella vaccine. Two doses of the vaccine are about 90% effective at preventing the infection.",
+        "If someone is infected, keep them isolated until all blisters have crusted over. Avoid sharing towels or bedding, and wash hands frequently to stop the virus from spreading."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat with chickenpox?",
+        "Foods for sore throat in chickenpox",
+        "Best diet for varicella",
+        "Hydration for chickenpox"
+      ],
+      "responses": [
+        "Stick to soft, bland foods if there are blisters in the mouth. Cold foods like yogurt, popsicles, and smoothies can be very soothing.",
+        "Avoid salty, spicy, or acidic foods (like citrus or tomatoes) which can sting mouth sores. Staying hydrated with water and clear broths is essential to help the body fight the virus."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for chickenpox",
+        "How to stop chickenpox itching?",
+        "Can I take aspirin for chickenpox?",
+        "Calamine lotion for varicella"
+      ],
+      "responses": [
+        "Use calamine lotion and lukewarm oatmeal baths to relieve itching. Keep fingernails trimmed short to prevent skin infections from scratching.",
+        "WARNING: Never give Aspirin to a child or teenager with chickenpox. This can cause Reye’s Syndrome, a rare but very serious condition that affects the liver and brain. Use Paracetamol for fever instead.",
+        "Antihistamines can help reduce the 'itch,' and in severe cases or for high-risk patients, a doctor may prescribe antiviral medications like Acyclovir."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after chickenpox?",
+        "Chickenpox scarring help",
+        "Can you get chickenpox twice?",
+        "Varicella and shingles link"
+      ],
+      "responses": [
+        "Most people have lifelong immunity after one infection. However, the virus stays dormant in your nerve tissues and can reactivate decades later as Shingles (Herpes Zoster).",
+        "To minimize scarring, avoid picking at scabs. Use fragrance-free moisturizers or Vitamin E oil once the scabs fall off to help the skin heal smoothly."
+      ]
+    }
+  ]
+}

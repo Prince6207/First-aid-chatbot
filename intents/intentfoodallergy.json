@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a food allergy?",
+        "Define food allergy",
+        "Difference between food allergy and intolerance",
+        "How does a food allergy work?"
+      ],
+      "responses": [
+        "A food allergy occurs when the immune system overreacts to a specific protein in food, treating it as a threat. This is different from a food intolerance, which involves the digestive system and is generally not life-threatening.",
+        "When you have a food allergy, your immune system releases antibodies called Immunoglobulin E (IgE) to neutralize the 'invading' food, causing an allergic reaction."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes food allergies?",
+        "Why am I allergic to nuts?",
+        "Common food allergens",
+        "How do food allergies start?"
+      ],
+      "responses": [
+        "While any food can cause a reaction, eight foods account for 90% of all reactions: milk, eggs, peanuts, tree nuts, fish, shellfish, soy, and wheat.",
+        "Causes include genetics and environmental factors. Your body mistakenly identifies a food protein as harmful and creates a 'memory' of it, triggering a reaction every time that food is eaten."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are signs of a food allergy?",
+        "Symptoms of allergic reaction to food",
+        "How do I know if I'm having an anaphylactic shock?",
+        "Itchy throat after eating"
+      ],
+      "responses": [
+        "Mild to moderate symptoms include hives, redness, itching, swelling of the lips/face, and abdominal pain.",
+        "EMERGENCY: If you experience difficulty breathing, swelling of the tongue, throat tightness, or a sudden drop in blood pressure, seek immediate emergency help. This is Anaphylaxis."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent food allergy reactions?",
+        "Avoiding allergic reactions",
+        "Safety tips for food allergies",
+        "How to read food labels?"
+      ],
+      "responses": [
+        "The only way to prevent a reaction is to strictly avoid the allergen. Always read food labels carefully; manufacturers are required to list common allergens in plain language.",
+        "Watch out for cross-contamination in kitchens (using the same spatula for different dishes) and be cautious of 'hidden' ingredients in sauces or processed foods."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Safe foods to eat",
+        "What can I eat instead of dairy?",
+        "Alternative foods for allergy sufferers",
+        "Anti-inflammatory foods for allergies"
+      ],
+      "responses": [
+        "Focus on whole, unprocessed foods like fresh fruits, vegetables, and plain meats to minimize the risk of hidden allergens.",
+        "Look for certified 'Allergen-Free' substitutes, such as oat milk for dairy or sunflower butter for peanut allergies. Always verify that the substitute itself isn't a new trigger for you."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for food allergy",
+        "How to treat an allergic reaction?",
+        "Do I need an EpiPen?",
+        "Antihistamines for food allergy"
+      ],
+      "responses": [
+        "For mild reactions (itching/hives), oral antihistamines like Diphenhydramine (Benadryl) or Cetirizine can help. However, they do not stop a severe reaction.",
+        "For severe reactions (Anaphylaxis), Epinephrine (EpiPen) is the only treatment. It must be administered immediately, followed by a trip to the Emergency Room."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after an allergic reaction?",
+        "Recovery after anaphylaxis",
+        "How long does a food allergy reaction last?",
+        "Feeling tired after allergy"
+      ],
+      "responses": [
+        "After a reaction, your body may feel exhausted (the 'allergy hangover'). Rest and stay hydrated. Monitor your symptoms closely for 24 hours, as a 'biphasic reaction' (a second wave of symptoms) can sometimes occur.",
+        "Consult an allergist to update your Emergency Action Plan and identify the exact trigger if it was an accidental exposure."
+      ]
+    }
+  ]
+}

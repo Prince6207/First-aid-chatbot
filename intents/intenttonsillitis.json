@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is tonsillitis?",
+        "Define tonsillitis",
+        "What are tonsils?",
+        "Inflamed tonsils meaning"
+      ],
+      "responses": [
+        "Tonsillitis is an inflammation of the tonsils, the two oval-shaped pads of tissue at the back of the throat—one on each side.",
+        "Tonsils act as the immune system's first line of defense against bacteria and viruses that enter your mouth. When they become overwhelmed by infection, they swell and become painful."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes tonsillitis?",
+        "Is tonsillitis viral or bacterial?",
+        "How do you catch tonsillitis?",
+        "Can you get tonsillitis from a cold?"
+      ],
+      "responses": [
+        "Tonsillitis is most commonly caused by common viruses (like the cold or flu), but bacterial infections can also be the culprit.",
+        "The most common bacteria causing tonsillitis is Streptococcus pyogenes (group A streptococcus), the bacterium that causes strep throat. It spreads through respiratory droplets or shared food/drinks."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are tonsillitis symptoms?",
+        "White spots on throat",
+        "Swollen tonsils signs",
+        "Does tonsillitis cause ear pain?"
+      ],
+      "responses": [
+        "Common symptoms include red, swollen tonsils, white or yellow coating/patches on the tonsils, sore throat, difficult or painful swallowing, and fever.",
+        "You might also experience tender, enlarged lymph nodes in the neck, a scratchy voice, bad breath, or even ear pain (since the nerves are connected)."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent tonsillitis?",
+        "Is tonsillitis contagious?",
+        "How to avoid throat infections?",
+        "Stopping the spread of tonsillitis"
+      ],
+      "responses": [
+        "The germs that cause viral and bacterial tonsillitis are contagious. The best prevention is good hygiene: wash your hands frequently and avoid sharing utensils, water bottles, or toothbrushes.",
+        "Replace your toothbrush after being diagnosed with tonsillitis to avoid reinfecting yourself. Stay away from people who are visibly sick with a cough or sore throat."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat with tonsillitis?",
+        "Foods for sore throat",
+        "Can I eat ice cream with tonsillitis?",
+        "What to drink for throat swelling?"
+      ],
+      "responses": [
+        "Stick to soft, cool foods that won't irritate the throat, such as yogurt, smoothies, applesauce, or warm (not hot) broths. Ice cream or fruit popsicles can actually help numb the pain and reduce swelling.",
+        "Drink plenty of fluids to keep the throat moist. Warm salt water gargles (1/2 teaspoon of salt in 8 ounces of warm water) can help soothe the inflammation and clear mucus."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for tonsillitis",
+        "How to treat swollen tonsils?",
+        "Do I need antibiotics for tonsillitis?",
+        "Pain relief for sore throat"
+      ],
+      "responses": [
+        "If the cause is viral, antibiotics won't help. Treatment focuses on rest and pain management using Ibuprofen or Paracetamol to reduce fever and discomfort.",
+        "If a doctor confirms a bacterial infection (Strep), they will prescribe a full course of antibiotics. Throat lozenges or anesthetic sprays can also provide temporary numbing relief."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after tonsillitis?",
+        "Recovery from tonsillectomy",
+        "When can I go back to work after tonsillitis?",
+        "Post-infection throat care"
+      ],
+      "responses": [
+        "Continue to rest and hydrate for 2-3 days after the fever breaks. If you were on antibiotics, ensure you finish the entire bottle even if you feel 100% better to prevent the bacteria from returning.",
+        "If you have chronic tonsillitis (frequent infections), a doctor may discuss a 'tonsillectomy' (surgical removal). Recovery from surgery usually takes 10-14 days and requires a strict soft-food diet."
+      ]
+    }
+  ]
+}

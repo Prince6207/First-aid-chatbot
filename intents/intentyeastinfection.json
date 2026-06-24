@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a yeast infection?",
+        "Define candidiasis",
+        "What is vaginal thrush?",
+        "Is yeast infection an STI?"
+      ],
+      "responses": [
+        "A yeast infection, or candidiasis, is a fungal infection caused by an overgrowth of the fungus Candida. It most commonly affects the vaginal area, but can also occur in the mouth (thrush), skin folds, or nail beds.",
+        "It is not considered a Sexually Transmitted Infection (STI), though it can sometimes be passed between partners. It is essentially an imbalance of the natural bacteria and yeast in your body."
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes a yeast infection?",
+        "Why do I keep getting yeast infections?",
+        "Antibiotics and yeast infection",
+        "Can sugar cause yeast infection?"
+      ],
+      "responses": [
+        "Overgrowth is often triggered by antibiotic use (which kills 'good' bacteria), hormonal changes (pregnancy or birth control), uncontrolled diabetes, or a weakened immune system.",
+        "Warm, moist environments facilitate yeast growth. Wearing wet swimsuits or tight, non-breathable synthetic underwear for long periods can also contribute to an infection."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are yeast infection symptoms?",
+        "Signs of a yeast infection",
+        "Itching and white discharge",
+        "Does a yeast infection smell?"
+      ],
+      "responses": [
+        "Common symptoms include intense itching and irritation, a burning sensation (especially during urination or intercourse), and a thick, white, odorless vaginal discharge that looks like cottage cheese.",
+        "You may also notice redness, swelling, or soreness of the affected area. Unlike bacterial infections, a typical yeast infection does not usually have a strong or 'fishy' odor."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent yeast infections?",
+        "Avoiding thrush",
+        "Yeast infection hygiene tips",
+        "Best underwear for yeast infection"
+      ],
+      "responses": [
+        "Wear breathable cotton underwear and avoid tight-fitting pants. Change out of wet workout clothes or swimsuits immediately.",
+        "Avoid scented feminine products, douches, and bubble baths, as these can disrupt the natural pH balance. When using the bathroom, always wipe from front to back."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What to eat for yeast infection?",
+        "Does yogurt help yeast infections?",
+        "Foods to avoid with candidiasis",
+        "Probiotics for yeast"
+      ],
+      "responses": [
+        "Probiotic-rich foods like plain Greek yogurt (with live cultures), kefir, and sauerkraut can help restore the 'good' bacteria (Lactobacillus) that keep yeast in check.",
+        "Try to reduce high-sugar foods and refined carbohydrates, as yeast thrives on sugar. Staying hydrated also supports your body's natural defense mechanisms."
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Medicine for yeast infection",
+        "Best cream for yeast infection",
+        "How to treat a yeast infection at home?",
+        "Can I use Monistat?"
+      ],
+      "responses": [
+        "Over-the-counter antifungal creams or suppositories (like Miconazole/Monistat) are common treatments. These usually come in 1, 3, or 7-day formulations.",
+        "For persistent infections, a doctor may prescribe a single oral dose of Fluconazole (Diflucan). WARNING: If your symptoms don't improve within a few days, or if you are pregnant, consult a healthcare provider before self-treating."
+      ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after a yeast infection?",
+        "How to tell if a yeast infection is gone?",
+        "Recovery after candidiasis",
+        "Recurrent yeast infection help"
+      ],
+      "responses": [
+        "Complete the full course of treatment even if symptoms disappear early. If you were using a cream, wait until the infection is fully cleared before having intercourse to avoid further irritation.",
+        "If you experience more than four yeast infections in a year, see a doctor to check for underlying conditions like blood sugar issues or to discuss a long-term suppression plan."
+      ]
+    }
+  ]
+}
