@@ -77,6 +77,20 @@
         "Medications like Diuretics, ACE inhibitors, or Beta-blockers may be prescribed by a doctor to help your body eliminate water or relax blood vessels.",
         "Treatment is highly individualized. WARNING: Never stop taking your blood pressure medication without consulting your doctor, even if you feel fine, as this can cause a dangerous 'rebound' spike in pressure."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do once blood pressure becomes normal?",
+        "How to maintain normal blood pressure after hypertension?",
+        "Can I stop my lifestyle changes after my BP drops?",
+        "Managing blood pressure after a hypertensive crisis",
+        "Post-hypertension management tips"
+      ],
+      "responses": [
+        "Unlike an infection, chronic hypertension doesn't have a temporary 'cure' or post-recovery phase. If your readings have returned to normal, it means your current treatments and lifestyle habits are actively working—stopping them will cause your blood pressure to climb again.",
+        "To safely manage your numbers long-term, continue logging regular blood pressure readings at home, maintain your lower-sodium diet, and attend your scheduled follow-up appointments with your doctor to review your ongoing care plan."
+      ]
     }
   ]
 }

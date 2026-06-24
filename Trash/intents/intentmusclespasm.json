@@ -77,6 +77,20 @@
         "For immediate relief, gently stretch and massage the muscle. Applying heat to tight muscles or ice to sore muscles can also help.",
         "Over-the-counter NSAIDs like Ibuprofen can help with post-cramp soreness. For chronic spasms, a doctor may prescribe muscle relaxants or suggest magnesium supplements, but these should only be taken under medical supervision."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after a muscle cramp stops?",
+        "Sore muscle after spasm",
+        "How to treat muscle soreness after a charley horse?",
+        "Care after severe muscle spasm",
+        "Post-cramp recovery tips"
+      ],
+      "responses": [
+        "After a severe spasm or 'charley horse' ends, it is very common for the muscle to feel deeply sore, bruised, or tender for a few hours or even days. Treat the area gently by performing light, dynamic stretches rather than forceful adjustments.",
+        "To help the tissue recover, apply a warm compress or take a warm Epsom salt bath to promote blood flow, stay consistently hydrated to flush out metabolic waste, and give the affected muscle a break from heavy lifting or high-impact exercise until the lingering soreness disappears entirely."
+      ]
     }
   ]
 }

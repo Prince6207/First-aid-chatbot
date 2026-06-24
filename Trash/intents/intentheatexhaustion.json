@@ -77,6 +77,20 @@
         "The best 'medicine' for heat exhaustion is physical cooling. Move to a cool area, lie down with your legs slightly elevated, and apply cool, wet cloths to your skin.",
         "Oral Rehydration Salts (ORS) are highly recommended. Generally, fever-reducing medications (like Aspirin or Paracetamol) are not effective for heat exhaustion and should be avoided unless recommended by a doctor."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after recovering from heat exhaustion?",
+        "How long to rest after getting overheated?",
+        "Am I more sensitive to heat after heat exhaustion?",
+        "Post-heat exhaustion care instructions",
+        "When can I go back in the sun after heat exhaustion?"
+      ],
+      "responses": [
+        "After experiencing heat exhaustion, you will likely be much more sensitive to high temperatures for about a week. It is crucial to stay out of the sun and avoid intense physical exercise or heavy lifting until your doctor or your body signals a full return to normal.",
+        "Focus on drinking plenty of fluids for the next 24 to 48 hours to fully restock cellular hydration, and make sure to rest in a temperature-controlled environment while your internal cooling system resets."
+      ]
     }
   ]
 }

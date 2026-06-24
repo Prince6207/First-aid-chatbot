@@ -77,6 +77,20 @@
         "Over-the-counter hydrocortisone cream (1%) can help reduce redness and itching. For severe itching, oral antihistamines like Cetirizine or Loratadine are effective.",
         "Cool compresses or calamine lotion can provide immediate relief. If the rash is severe, a dermatologist may prescribe stronger steroid creams or even a short course of oral steroids."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after a sun rash clears?",
+        "How to care for skin after sun dermatitis?",
+        "Will a sun allergy rash leave scars?",
+        "How to reintroduce sun exposure after a rash?",
+        "Post-solar dermatitis care"
+      ],
+      "responses": [
+        "Once the sun rash heals, focus on intense skin hydration. The skin barrier may still be delicate and prone to drying or peeling, so use a fragrance-free, hypoallergenic moisturizer to restore the barrier layer.",
+        "To build back tolerance safely, avoid diving straight back into intense sunlight. Gradually reintroduce brief periods of sun exposure during off-peak hours (early morning or late evening) while strictly maintaining your mineral sunscreen and UPF clothing routine."
+      ]
     }
   ]
 }

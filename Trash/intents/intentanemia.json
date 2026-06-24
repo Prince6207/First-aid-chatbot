@@ -77,6 +77,20 @@
         "Iron supplements (ferrous sulfate or gluconate) are the standard treatment. These should be taken as directed by a doctor, as too much iron can be toxic.",
         "Note: Iron supplements can cause side effects like constipation or dark-colored stools. Taking them with a small amount of food or a stool softener may help, but consult your doctor first."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after recovering from anemia?",
+        "How to maintain iron levels after anemia?",
+        "Am I cured of anemia?",
+        "Post-anemia care instructions",
+        "How long do I take iron after my blood levels are normal?"
+      ],
+      "responses": [
+        "Even after your hemoglobin levels return to normal, doctors usually recommend continuing iron supplements for another 3 to 6 months to completely rebuild your body's stored iron reserves (ferritin levels).",
+        "To prevent a relapse, schedule routine follow-up blood tests (CBC and ferritin) as recommended by your physician, and continue focusing on an iron-conscious diet."
+      ]
     }
   ]
 }

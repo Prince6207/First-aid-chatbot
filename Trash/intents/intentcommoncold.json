@@ -78,6 +78,20 @@
         "Disinfect high-touch surfaces like doorknobs and light switches. Avoid sharing glasses or utensils with family members if someone is ill.",
         "Boost your immunity by getting enough sleep, eating a healthy diet, and managing stress."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after recovering from a cold?",
+        "How to clean up after being sick with a cold?",
+        "Lingering cough after cold is gone",
+        "When is it safe to return to work after a cold?",
+        "Post-cold care instructions"
+      ],
+      "responses": [
+        "Once your major symptoms are gone, it is safe to resume normal activities. However, a mild, dry cough can sometimes linger for up to 3 to 4 weeks as your airways continue to heal; this is normal and usually doesn't mean you are still contagious.",
+        "To prevent immediate reinfection or spreading leftover germs, wash your bedding, disinfect high-touch surfaces you used while sick, and replace or thoroughly sanitize your toothbrush."
+      ]
     }
   ]
 }

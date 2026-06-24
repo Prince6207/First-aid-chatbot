@@ -77,6 +77,20 @@
         "Non-drowsy oral antihistamines (like Cetirizine, Loratadine, or Fexofenadine) are the first line of defense. They work by blocking the histamine your body produces.",
         "Corticosteroid nasal sprays (like Fluticasone) are highly effective for long-term management of nasal congestion. Saline nasal rinses (Neti pots) can also physically flush allergens out of your nasal passages."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after allergy season ends?",
+        "How to care for body after hay fever flare up?",
+        "Do I stop allergy meds when pollen is gone?",
+        "Post-allergy fatigue and recovery",
+        "Managing health after a seasonal allergy attack"
+      ],
+      "responses": [
+        "Once a pollen spike passes or allergy season wraps up, your airways may still remain slightly sensitive or hyper-reactive for a week or two. If you use a daily steroid nasal spray, consult your doctor rather than stopping abruptly, as tapering down slowly can prevent a rapid rebound of swelling.",
+        "To clear your environment post-flare up, run a deep cleaning routine: wash curtains, change HVAC air filters, and deeply vacuum your carpets and upholstery to eliminate any microscopic pollen particles that settled inside your home."
+      ]
     }
   ]
 }

@@ -77,6 +77,20 @@
         "Antiviral creams (like Docosanol/Abreva) or prescription pills (like Acyclovir or Valacyclovir) work best if used at the very first sign of tingling, before the blister even appears.",
         "Over-the-counter patches can help hide the sore and reduce the risk of spreading the virus. For pain, you can use Ibuprofen or apply a cool, damp cloth to the area."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after a cold sore heals?",
+        "When is a cold sore no longer contagious?",
+        "Can I use my lip balm after a cold sore?",
+        "How to clean up after an outbreak?",
+        "Post-cold sore care tips"
+      ],
+      "responses": [
+        "Once the scab falls off and the skin underneath is completely intact and healed, the cold sore is no longer considered highly contagious. However, it is a great idea to replace your toothbrush, lip balm, and lipstick to prevent immediate re-exposure.",
+        "Pay attention to what triggered the flare-up (like sunburn or high stress) so you can minimize those elements in the future, and keep an antiviral cream or prescription on hand for the next time you feel a lip tingle."
+      ]
     }
   ]
 }

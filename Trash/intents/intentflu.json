@@ -77,6 +77,20 @@
         "Antiviral drugs (like Oseltamivir/Tamiflu) can be prescribed by a doctor. They work best if started within 48 hours of symptoms appearing to shorten the illness.",
         "Over-the-counter pain relievers like Paracetamol or Ibuprofen can help reduce fever and body aches. Never give Aspirin to children or teenagers with flu-like symptoms due to the risk of Reye's syndrome."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after recovering from the flu?",
+        "Why am I so tired after the flu?",
+        "Post-flu weakness and care",
+        "When can I exercise after the flu?",
+        "How to recover fully from influenza?"
+      ],
+      "responses": [
+        "It is completely normal to experience lingering fatigue, muscle weakness, or a dry cough for up to two to three weeks after the main flu infection has cleared. Give your body time to rebuild its energy and avoid rushing back into strenuous workouts or high-stress activities right away.",
+        "To stay healthy post-flu, deeply clean your space by washing bed linens, disinfecting frequently touched electronics, and switching out your toothbrush to minimize residual germ exposure."
+      ]
     }
   ]
 }

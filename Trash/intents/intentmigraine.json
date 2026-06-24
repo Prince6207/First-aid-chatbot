@@ -78,6 +78,20 @@
         "For severe attacks, doctors often prescribe Triptans (like Sumatriptan), which specifically target the blood vessels and nerves in the brain to stop the pain.",
         "Antiemetics (anti-nausea meds) are often used alongside painkillers if vomiting is a major symptom. Always consult a neurologist for a tailored treatment plan."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What happens after a migraine ends?",
+        "Migraine hangover symptoms",
+        "Feeling tired after a migraine",
+        "Postdrome phase of migraine",
+        "How to care for yourself after a migraine attack?"
+      ],
+      "responses": [
+        "The period after a migraine attack is known as the 'postdrome' or a 'migraine hangover,' and it can last for 24 to 48 hours. During this phase, it is incredibly common to experience lingering fatigue, brain fog, moodiness, and sensitivity to light.",
+        "To recover fully from an attack, treat your body gently: focus on deep hydration, eat simple, easy-to-digest meals, and give yourself permission to rest in a quiet space while your nervous system returns to equilibrium."
+      ]
     }
   ]
 }

@@ -78,6 +78,20 @@
         "First Aid: Get out of the cold. Rewarm the area by soaking it in warm (NOT HOT) water—ideally 100°F to 108°F (38°C to 42°C)—for 20 to 30 minutes. Use Ibuprofen to help manage the significant pain that occurs during the rewarming process.",
         "If the area remains numb or turns black during rewarming, go to an emergency room immediately for professional treatment, which may include clot-busting medications."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What happens after frostbite heals?",
+        "Long term effects of frostbite",
+        "Caring for skin after frostbite",
+        "Why is my skin still sensitive after frostbite?",
+        "Post-frostbite care instructions"
+      ],
+      "responses": [
+        "Even after the skin appears to have recovered from frostbite, the healed area will remain highly sensitive to cold temperatures, numbness, and tingling for months or even years. It is critical to protect these previously injured areas extra carefully during subsequent cold weather exposures.",
+        "Keep the healing skin clean and thoroughly moisturized to prevent cracking. Attend all medical follow-ups, especially if you had blistering or deep tissue involvement, to monitor for nerve damage or long-term changes in local blood circulation."
+      ]
     }
   ]
 }

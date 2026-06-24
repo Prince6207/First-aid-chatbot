@@ -77,6 +77,20 @@
         "There is no 'pill' for heat stroke. The primary treatment is immediate physical cooling: move to shade, spray with cool water, and use ice packs on the neck, armpits, and groin.",
         "WARNING: Do not take Aspirin or Acetaminophen (Paracetamol) to treat a high temperature caused by heat stroke. These medications do not work on heat-induced fever and can actually cause complications like bleeding."
       ]
+    },
+    {
+      "tag": "post-recovery",
+      "patterns": [
+        "What to do after recovering from heat stroke?",
+        "How long does it take to fully recover from heatstroke?",
+        "Are there long term effects of heat stroke?",
+        "Post-heat stroke care instructions",
+        "What is the follow-up care for heat stroke?"
+      ],
+      "responses": [
+        "Full recovery from heat stroke can take anywhere from several weeks to months, as your internal organs and nervous system heal. Your body will be highly sensitive to hot weather during this time, so you must strictly avoid heat exposure and strenuous exercise until cleared by your doctor.",
+        "Follow-up medical care is vital; you may need recurring blood tests to ensure your kidneys, liver, and muscles have completely recovered. Continue prioritizing daily fluid intake, get plenty of rest, and seek medical attention immediately if you experience returning dizziness, confusion, or temperature instability."
+      ]
     }
   ]
 }
