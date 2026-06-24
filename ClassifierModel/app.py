@@ -173,7 +173,7 @@ if st.session_state.detected_disease and st.session_state.disease_knowledge:
                 if intent.get("tag") == predicted_tag:
                     responses = intent.get("responses", [])
                     if responses:
-                        final_reply = random.choice(responses)
+                        final_reply = "\n".join(responses)
                     break
         
         st.session_state.chat_history.append({"role": "assistant", "content": final_reply})
